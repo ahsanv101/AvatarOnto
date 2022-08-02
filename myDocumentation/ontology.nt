@@ -1,0 +1,1552 @@
+<https://github.com/ahsanv101/AvatarOnto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://github.com/ahsanv101/AvatarOnto> <http://www.w3.org/2002/07/owl#versionIRI> <https://github.com/ahsanv101/AvatarOnto> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/ahsanv101/AvatarOnto/bends
+<https://github.com/ahsanv101/AvatarOnto/bends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/bends> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/bends> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Element> .
+<https://github.com/ahsanv101/AvatarOnto/bends> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/culturally_derives_from
+<https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Element> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+<https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://www.w3.org/2000/01/rdf-schema#comment> "Highlights the cultural connection between a fictional element (ex. \"Kyoshi Warriors\") and a cultural instance belonging to our reality (ex. \"Geisha\")" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/existed_in
+<https://github.com/ahsanv101/AvatarOnto/existed_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/existed_in> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/existed_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Event> .
+<https://github.com/ahsanv101/AvatarOnto/existed_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes if a specific group or individual has participated to an historical event." .
+<https://github.com/ahsanv101/AvatarOnto/existed_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes if a specific individual or group of individuals has lived trough a specific timeline or event." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/from
+<https://github.com/ahsanv101/AvatarOnto/from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/from> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#unionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Non-bending> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Legend> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/from> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Location> .
+<https://github.com/ahsanv101/AvatarOnto/from> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the provenance of a specific element." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_ability
+<https://github.com/ahsanv101/AvatarOnto/has_ability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_ability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_ability> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+<https://github.com/ahsanv101/AvatarOnto/has_ability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates any ability possessed by a living being." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_disciple
+<https://github.com/ahsanv101/AvatarOnto/has_disciple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_disciple> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/ahsanv101/AvatarOnto/has_master> .
+<https://github.com/ahsanv101/AvatarOnto/has_disciple> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_disciple> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_disciple> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the teacher-student relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_legend
+<https://github.com/ahsanv101/AvatarOnto/has_legend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_legend> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#unionOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/has_legend> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Legend> .
+<https://github.com/ahsanv101/AvatarOnto/has_legend> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to any possible connection between a fictional element and a legend about it." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_master
+<https://github.com/ahsanv101/AvatarOnto/has_master> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_master> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_master> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_master> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the teacher-student relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_member
+<https://github.com/ahsanv101/AvatarOnto/has_member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_member> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/ahsanv101/AvatarOnto/is_part_of> .
+<https://github.com/ahsanv101/AvatarOnto/has_member> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Group> .
+<https://github.com/ahsanv101/AvatarOnto/has_member> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/has_member> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the relationship between a group and its members." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/inspired_by
+<https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/ahsanv101/AvatarOnto/inspires> .
+<https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#unionOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Element> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://www.w3.org/2000/01/rdf-schema#range> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#unionOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes how a fictional element  was inspired by a real historical, scientific or political element." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/inspires
+<https://github.com/ahsanv101/AvatarOnto/inspires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/inspires> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/inspires> <http://www.w3.org/2000/01/rdf-schema#range> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#unionOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Element> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/inspires> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines how an historical, scientific or political element from our world inspired a fictional element of the Avatar world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_child_of
+<https://github.com/ahsanv101/AvatarOnto/is_child_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_child_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/ahsanv101/AvatarOnto/is_parent_of> .
+<https://github.com/ahsanv101/AvatarOnto/is_child_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_child_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_child_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the familial relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_companion_of
+<https://github.com/ahsanv101/AvatarOnto/is_companion_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_companion_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+<https://github.com/ahsanv101/AvatarOnto/is_companion_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+<https://github.com/ahsanv101/AvatarOnto/is_companion_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Person> .
+<https://github.com/ahsanv101/AvatarOnto/is_companion_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the bond between a creature or a spirit and a person." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_enemy_of
+<https://github.com/ahsanv101/AvatarOnto/is_enemy_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_enemy_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/ahsanv101/AvatarOnto/is_friend_of> .
+<https://github.com/ahsanv101/AvatarOnto/is_enemy_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_enemy_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_enemy_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_friend_of
+<https://github.com/ahsanv101/AvatarOnto/is_friend_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_friend_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_friend_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_friend_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_parent_of
+<https://github.com/ahsanv101/AvatarOnto/is_parent_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_parent_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_parent_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_parent_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the familial relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_part_of
+<https://github.com/ahsanv101/AvatarOnto/is_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_part_of> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#unionOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/is_part_of> <http://www.w3.org/2000/01/rdf-schema#range> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#unionOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/is_part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the relationship between a fictional element and the group it belongs to." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_related_to
+<https://github.com/ahsanv101/AvatarOnto/is_related_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_related_to> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_related_to> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_related_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the familial relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/is_sibling_of
+<https://github.com/ahsanv101/AvatarOnto/is_sibling_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/is_sibling_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_sibling_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/is_sibling_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the familial relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/loves
+<https://github.com/ahsanv101/AvatarOnto/loves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/loves> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/loves> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/loves> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the relationship between two living beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/participated_in
+<https://github.com/ahsanv101/AvatarOnto/participated_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/ahsanv101/AvatarOnto/participated_in> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#unionOf> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/participated_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/ahsanv101/AvatarOnto/Event> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_date
+<https://github.com/ahsanv101/AvatarOnto/has_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Event> .
+<https://github.com/ahsanv101/AvatarOnto/has_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/ahsanv101/AvatarOnto/has_date> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to the date of a specific event." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_event
+<https://github.com/ahsanv101/AvatarOnto/has_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_event> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Event> .
+<https://github.com/ahsanv101/AvatarOnto/has_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/ahsanv101/AvatarOnto/has_event> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines any event belonging to a timeline." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_feature
+<https://github.com/ahsanv101/AvatarOnto/has_feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_feature> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#unionOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/has_feature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_fighting_style
+<https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#unionOf> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/has_name
+<https://github.com/ahsanv101/AvatarOnto/has_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/has_name> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#unionOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Event> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Element> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/has_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/ahsanv101/AvatarOnto/has_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Introduces the name of a fictional or real element." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/known_for
+<https://github.com/ahsanv101/AvatarOnto/known_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/known_for> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/ahsanv101/AvatarOnto/Location> .
+<https://github.com/ahsanv101/AvatarOnto/known_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/ahsanv101/AvatarOnto/known_for> <http://www.w3.org/2000/01/rdf-schema#comment> "Explicits a trait that a location is known for by the public." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/uses
+<https://github.com/ahsanv101/AvatarOnto/uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/ahsanv101/AvatarOnto/uses> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#unionOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Object> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Location> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Group> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Element> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Event> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Ability
+<https://github.com/ahsanv101/AvatarOnto/Ability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Ability> <http://www.w3.org/2000/01/rdf-schema#comment> "The superclass Ability refers to all the powers, talents and capacities that an individual can use in the Avatar universe. " .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air
+<https://github.com/ahsanv101/AvatarOnto/Air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Element> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air_Bending
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://github.com/ahsanv101/AvatarOnto/Air> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/ahsanv101/AvatarOnto/bends> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air_Nation
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Animate_Transport
+<https://github.com/ahsanv101/AvatarOnto/Animate_Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Animate_Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+<https://github.com/ahsanv101/AvatarOnto/Animate_Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass describing any kind of animal mount used as transportation." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Armament
+<https://github.com/ahsanv101/AvatarOnto/Armament> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Armament> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Object> .
+<https://github.com/ahsanv101/AvatarOnto/Armament> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass containing any kind of armament." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Armor
+<https://github.com/ahsanv101/AvatarOnto/Armor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Armor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Armament> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Artillery
+<https://github.com/ahsanv101/AvatarOnto/Artillery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Artillery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Armament> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Avatar_Circle
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Circle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Circle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Group> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Circle> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to the closest people to the Avatars." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Avatar_Legend
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Legend> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> <http://www.w3.org/2000/01/rdf-schema#comment> "Legends belonging to the Avatar Universe." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Avatar_World
+<https://github.com/ahsanv101/AvatarOnto/Avatar_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_World> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Location> .
+<https://github.com/ahsanv101/AvatarOnto/Avatar_World> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass describing all the places of the Avatar world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Belief
+<https://github.com/ahsanv101/AvatarOnto/Belief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Belief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+<https://github.com/ahsanv101/AvatarOnto/Belief> <http://www.w3.org/2000/01/rdf-schema#comment> "Belief is a subclass for any political, religious or philosophical orientation" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Bending
+<https://github.com/ahsanv101/AvatarOnto/Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+<https://github.com/ahsanv101/AvatarOnto/Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "Bending was created to address all the bending techniques of the Avatar world (firebending, waterbending, airbending, earthbending) and their respective specializations (here contained as their subclasses)" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Bloodbending
+<https://github.com/ahsanv101/AvatarOnto/Bloodbending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Bloodbending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Water_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Bloodbending> <http://www.w3.org/2000/01/rdf-schema#comment> "Specialized sub-skill and rare variant of waterbending allows an extremely advanced waterbender to take hold of and manipulate fluids within an organism's body." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Combustionbending
+<https://github.com/ahsanv101/AvatarOnto/Combustionbending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Combustionbending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Fire_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Combustionbending> <http://www.w3.org/2000/01/rdf-schema#comment> "The form of telekinetic firebending." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Concept
+<https://github.com/ahsanv101/AvatarOnto/Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "Concept addresses all political views, traditions, myths and cultural feats coming both from our world and from Avatar's universe. " .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Creature
+<https://github.com/ahsanv101/AvatarOnto/Creature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Creature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/Creature> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass used to described any type of animal belonging to the Avatar world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition
+<https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+<https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> <http://www.w3.org/2000/01/rdf-schema#comment> "Culture_and_Tradition addresses all references and instances of real-life culture." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth
+<https://github.com/ahsanv101/AvatarOnto/Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Element> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Bending
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://github.com/ahsanv101/AvatarOnto/Earth> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/ahsanv101/AvatarOnto/bends> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom
+<https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Element
+<https://github.com/ahsanv101/AvatarOnto/Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Element contains the foundation of the Avatar universe: the four elements." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Energy_Bending
+<https://github.com/ahsanv101/AvatarOnto/Energy_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Energy_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Energy_Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability to bend another person's life energy." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Event
+<https://github.com/ahsanv101/AvatarOnto/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "The superclass Event refers to moments in times and both fictional and non-fictional historical events." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire
+<https://github.com/ahsanv101/AvatarOnto/Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Element> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire_Bending
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://github.com/ahsanv101/AvatarOnto/Fire> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/ahsanv101/AvatarOnto/bends> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire_Nation
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Flying
+<https://github.com/ahsanv101/AvatarOnto/Flying> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Flying> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Air_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Flying> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest level of Airbending, unique ability." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Group
+<https://github.com/ahsanv101/AvatarOnto/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#onClass> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+_:genid100 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/ahsanv101/AvatarOnto/has_member> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/ahsanv101/AvatarOnto/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass containing any organization or social circle counting more than one individual in it." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hand_Combat
+<https://github.com/ahsanv101/AvatarOnto/Hand_Combat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Hand_Combat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Non-bending> .
+<https://github.com/ahsanv101/AvatarOnto/Hand_Combat> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of non-bending ability, related to martial arts and physical combat." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Healing
+<https://github.com/ahsanv101/AvatarOnto/Healing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Healing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Water_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Healing> <http://www.w3.org/2000/01/rdf-schema#comment> "A special ability possessed by some waterbenders that enables them to heal those who have been wounded, including themselves." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Inanimate_Transport
+<https://github.com/ahsanv101/AvatarOnto/Inanimate_Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Inanimate_Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Transport> .
+<https://github.com/ahsanv101/AvatarOnto/Inanimate_Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass describing any kind of artificial structure used as transportation." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Knowledge_Based_Object
+<https://github.com/ahsanv101/AvatarOnto/Knowledge_Based_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Knowledge_Based_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Object> .
+<https://github.com/ahsanv101/AvatarOnto/Knowledge_Based_Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to any kind of object capable of transmitting knowledge." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Korras_Timeline
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Event> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lavabending
+<https://github.com/ahsanv101/AvatarOnto/Lavabending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Lavabending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Earth_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Lavabending> <http://www.w3.org/2000/01/rdf-schema#comment> "A specialized earth-bending technique allowing to change phase of the earth, melting it into lava for more versatility in battle." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Legend
+<https://github.com/ahsanv101/AvatarOnto/Legend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Legend> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Concept> .
+<https://github.com/ahsanv101/AvatarOnto/Legend> <http://www.w3.org/2000/01/rdf-schema#comment> "Legend refers to any myth, mythological creature or legend coming coming from our world and, also, from the Avatar universe." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lightning_Generation
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Generation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Fire_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Generation> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-skill of firebending that allows a firebender to produce and guide a bolt of lightning from their fingertips." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lightning_Redirection
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Redirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Redirection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Fire_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Lightning_Redirection> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-skill of firebending that allows a firebender to absorb lightning into their body as energy and release it in a more desirable direction." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Living_Being
+<https://github.com/ahsanv101/AvatarOnto/Living_Being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Living_Being> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass addressing all the existing individuals, creatures and supernatural entities living in the Avatar universe. " .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Location
+<https://github.com/ahsanv101/AvatarOnto/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass that refers to all kinds of places, both fictional and non-fictional." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Material_World
+<https://github.com/ahsanv101/AvatarOnto/Material_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Material_World> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Avatar_World> .
+<https://github.com/ahsanv101/AvatarOnto/Material_World> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass defining all the locations belonging to th mortal world of Avatar." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Melee_Combat
+<https://github.com/ahsanv101/AvatarOnto/Melee_Combat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Melee_Combat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Non-bending> .
+<https://github.com/ahsanv101/AvatarOnto/Melee_Combat> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of non-bending ability, related to any fight involving a short range weapon (like a sword or a dagger)." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Metalbending
+<https://github.com/ahsanv101/AvatarOnto/Metalbending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Metalbending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Earth_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Metalbending> <http://www.w3.org/2000/01/rdf-schema#comment> "A specialized earth-bending technique to manipulate metal." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Military_Forces
+<https://github.com/ahsanv101/AvatarOnto/Military_Forces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Military_Forces> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Group> .
+<https://github.com/ahsanv101/AvatarOnto/Military_Forces> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass containing all organizations with a strong military apparatus or attitude." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Non-bending
+<https://github.com/ahsanv101/AvatarOnto/Non-bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Non-bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Ability> .
+<https://github.com/ahsanv101/AvatarOnto/Non-bending> <http://www.w3.org/2000/01/rdf-schema#comment> "Non_Bending refers to different combat styles, going from hand-combat, too melee-combat to ranged-combat (here contained as ulterior subclasses)" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe
+<https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Object
+<https://github.com/ahsanv101/AvatarOnto/Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass defining any kind of tool or resource with a purpose, a physical form and a shape." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Person
+<https://github.com/ahsanv101/AvatarOnto/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to human beings." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Political_Group
+<https://github.com/ahsanv101/AvatarOnto/Political_Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Political_Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Group> .
+<https://github.com/ahsanv101/AvatarOnto/Political_Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to any political party or government apparatus." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Ranged_Combat
+<https://github.com/ahsanv101/AvatarOnto/Ranged_Combat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Ranged_Combat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Non-bending> .
+<https://github.com/ahsanv101/AvatarOnto/Ranged_Combat> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of non-bending ability, related to any fighting technique involving a long-range weapon (such as a bow or a gun)." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Real_World
+<https://github.com/ahsanv101/AvatarOnto/Real_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Location> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass containing all the reference to actual locations and places coming from our world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Real_World_Legend
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Legend> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> <http://www.w3.org/2000/01/rdf-schema#comment> "Legends belonging to our world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Event> .
+<https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to all real life events used as inspiration or reference in the Avatar universe." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Seismic_Sense
+<https://github.com/ahsanv101/AvatarOnto/Seismic_Sense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Seismic_Sense> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Earth_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Seismic_Sense> <http://www.w3.org/2000/01/rdf-schema#comment> "A specialized earth-bender technique for sensing vibrations through the ground, \"seeing\" by sensing its surroundings and making a mental image of it." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Southern_Water_Tribe
+<https://github.com/ahsanv101/AvatarOnto/Southern_Water_Tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Southern_Water_Tribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spirit
+<https://github.com/ahsanv101/AvatarOnto/Spirit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Living_Being> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass defining supernatural entities of the Avatar world." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spirit_World
+<https://github.com/ahsanv101/AvatarOnto/Spirit_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_World> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Avatar_World> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_World> <http://www.w3.org/2000/01/rdf-schema#comment> "The dimension where the spirits live." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spiritbending
+<https://github.com/ahsanv101/AvatarOnto/Spiritbending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Spiritbending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Healing> .
+<https://github.com/ahsanv101/AvatarOnto/Spiritbending> <http://www.w3.org/2000/01/rdf-schema#comment> "Spiritbending is a variation of the healing technique which allows the user to instill a balance or an imbalance within spirits." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spiritual_Projection
+<https://github.com/ahsanv101/AvatarOnto/Spiritual_Projection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Spiritual_Projection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Air_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Spiritual_Projection> <http://www.w3.org/2000/01/rdf-schema#comment> "A specialized airbending technique that consists of projecting one's spirit out of the body to travel to another location." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Transport
+<https://github.com/ahsanv101/AvatarOnto/Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass defining any kind of transportation." .
+# 
+# https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water
+<https://github.com/ahsanv101/AvatarOnto/Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Element> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water_Bending
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://github.com/ahsanv101/AvatarOnto/Water> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/ahsanv101/AvatarOnto/bends> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water_Tribe
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Weapon
+<https://github.com/ahsanv101/AvatarOnto/Weapon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/ahsanv101/AvatarOnto/Weapon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/ahsanv101/AvatarOnto/Armament> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/page/Anarchism
+<http://dbpedia.org/page/Anarchism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Anarchism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China
+<http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Buddhism
+<http://dbpedia.org/page/Buddhism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Buddhism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Chinese_mythology
+<http://dbpedia.org/page/Chinese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Chinese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/First_Sino_Japanese_War
+<http://dbpedia.org/page/First_Sino_Japanese_War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/First_Sino_Japanese_War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Hinduism
+<http://dbpedia.org/page/Hinduism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Hinduism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Industrial_Revolution
+<http://dbpedia.org/page/Industrial_Revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Industrial_Revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Inuit_religion
+<http://dbpedia.org/page/Inuit_religion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Inuit_religion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/Japanese_mythology
+<http://dbpedia.org/page/Japanese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Japanese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/Korean_mythology
+<http://dbpedia.org/page/Korean_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Korean_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/Meiji_Restoration
+<http://dbpedia.org/page/Meiji_Restoration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Meiji_Restoration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Ming_Dynasty
+<http://dbpedia.org/page/Ming_Dynasty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Ming_Dynasty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas
+<http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/Nanjing_Massacre
+<http://dbpedia.org/page/Nanjing_Massacre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Nanjing_Massacre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Populism
+<http://dbpedia.org/page/Populism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Populism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Qing_Dynasty
+<http://dbpedia.org/page/Qing_Dynasty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Qing_Dynasty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Roaring_Twenties
+<http://dbpedia.org/page/Roaring_Twenties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Roaring_Twenties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Shinto
+<http://dbpedia.org/page/Shinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Shinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Taiping_Rebellion
+<http://dbpedia.org/page/Taiping_Rebellion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Taiping_Rebellion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# http://dbpedia.org/page/Taoism
+<http://dbpedia.org/page/Taoism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Taoism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# http://dbpedia.org/page/Vietnamese_mythology
+<http://dbpedia.org/page/Vietnamese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Vietnamese_mythology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# http://dbpedia.org/page/Zoroastrianism
+<http://dbpedia.org/page/Zoroastrianism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/page/Zoroastrianism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D
+<https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Aang
+<https://github.com/ahsanv101/AvatarOnto/Aang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Aang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_date> "0_BG_to_100_AG" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Aang_and_Appa_frozen_in_iceberg" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Aang_escapes_with_Appa" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Aang_starts_Earth_Bending_Training" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Aang_starts_Fire_Bending_Training" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Aang_starts_Water_Bending_Training" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Admiral_Zhao_kills_Tui" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Arrival_of_Sozins_Comet" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Avatar_Aang_defeats_Ozai" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Azula_becomes_Fire_Lord" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Azula_conquers_Ba_Sing_Se" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Azula_kills_Aang" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Azula_starts_hunting_the_Avatar" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Azulon_becomes_Fire_Lord" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Eclipse_Attack" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Lord_Azulon_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Nation_attacks_Water_Tribe" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Nation_attacks_the_Earth_Kingdom" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Nation_conquers_Omashu" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Nation_invades_Northern_Water_Tribe" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Fire_Nations_Genocide_against_Air_Nomads" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "GAang_defeats_Fire_Nation_Forces" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Katara_and_Sokka_find_Aang" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Katara_brings_Aang_back_to_life" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Lion_Turtle_teaches_Aang_Energybending" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Long_Feng_is_Regent_of_Earth_Kingdom" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Mai_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Omashu_is_freed" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Ozai_and_Azula_are_imprisoned" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Ozai_and_Iroh_are_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Ozai_attacks_Earth_Kingdom" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Ozai_becomes_Fire_Lord" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Ozai_becomes_Phoenix_King" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Prince_Zuko_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Princess_Azula_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Princess_Yue_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Siege_of_Ba_Sing_Se" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Sokka_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Start_of_Zukos_Exile" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "The_White_Lotus_frees_Ba_Sing_Se" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Toph_Sokka_and_Suki_defeat_Fire_Nations_Armada" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Toph_is_born" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Toph_joins_GAang" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Yues_death" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Zuko_and_Katara_defeat_Azula" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Zuko_becomes_Fire_Lord" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Zuko_joins_GAang" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Zuko_starts_hunting_the_Avatar" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_event> "Zuko_trains_Aang" .
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_name> "The_Hundred_Year_War" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Agna_Qela
+<https://github.com/ahsanv101/AvatarOnto/Agna_Qela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Agna_Qela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air
+<https://github.com/ahsanv101/AvatarOnto/Air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Air> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Buddhism> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Hinduism> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q1149795> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q5521630> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/uses> "life_flow" .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/uses> "wind" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air_Bending
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Air_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/from> <https://github.com/ahsanv101/AvatarOnto/Air_Nation> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/has_name> "Air_Bending" .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "inner_peace" .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "meditation" .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "negative_jing" .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "spiritual_enlightment" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air_Nation
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Air_Nation> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Buddhism> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://github.com/ahsanv101/AvatarOnto/China> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.geonames.org/1279685> .
+<https://www.geonames.org/1279685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.geonames.org/1282988> .
+<https://www.geonames.org/1282988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/has_name> "Air_Nomads" .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation> <https://github.com/ahsanv101/AvatarOnto/known_for> "Spirituality" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Air_Nation_Weapons
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Nation_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Weapon> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Angkor_Wat
+<https://github.com/ahsanv101/AvatarOnto/Angkor_Wat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Angkor_Wat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Appa
+<https://github.com/ahsanv101/AvatarOnto/Appa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Appa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Arctic_Camel
+<https://github.com/ahsanv101/AvatarOnto/Arctic_Camel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Arctic_Camel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Asami_Sato
+<https://github.com/ahsanv101/AvatarOnto/Asami_Sato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Asami_Sato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Azula
+<https://github.com/ahsanv101/AvatarOnto/Azula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Azula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Ba_Sing_Se
+<https://github.com/ahsanv101/AvatarOnto/Ba_Sing_Se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Ba_Sing_Se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Bai_Shaolin_Style
+<https://github.com/ahsanv101/AvatarOnto/Bai_Shaolin_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Bai_Shaolin_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Beijing
+<https://github.com/ahsanv101/AvatarOnto/Beijing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Beijing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Boiling_Rock_Prison
+<https://github.com/ahsanv101/AvatarOnto/Boiling_Rock_Prison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Boiling_Rock_Prison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Bolin
+<https://github.com/ahsanv101/AvatarOnto/Bolin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Bolin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Cambodia
+<https://github.com/ahsanv101/AvatarOnto/Cambodia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Cambodia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Capital_City
+<https://github.com/ahsanv101/AvatarOnto/Capital_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Capital_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/China
+<https://github.com/ahsanv101/AvatarOnto/China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Dai_Li
+<https://github.com/ahsanv101/AvatarOnto/Dai_Li> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Dai_Li> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth
+<https://github.com/ahsanv101/AvatarOnto/Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth> .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q1149795> .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/uses> "ground" .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/uses> "rock" .
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/uses> "sand" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Bending
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/from> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> "Nanquan" .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> "Wing_Chun" .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/has_name> "Earth_Bending" .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "contact_with_nature" .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "five_senses" .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "neutral_jing" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Empire
+<https://github.com/ahsanv101/AvatarOnto/Earth_Empire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Empire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Military_Forces> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Empire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Political_Group> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom_Weapons
+<https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Weapon> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Earth_Nation
+<https://github.com/ahsanv101/AvatarOnto/Earth_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Eastern_Air_Temple
+<https://github.com/ahsanv101/AvatarOnto/Eastern_Air_Temple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Eastern_Air_Temple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Equalists
+<https://github.com/ahsanv101/AvatarOnto/Equalists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Equalists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Military_Forces> .
+<https://github.com/ahsanv101/AvatarOnto/Equalists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Political_Group> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire
+<https://github.com/ahsanv101/AvatarOnto/Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Buddhism> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Hinduism> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q1149795> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/uses> "breath_control" .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/uses> "inner_drive" .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/uses> "sun_energy" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire_Bending
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/from> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> "Changquan" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> "Southern_Dragon_Claw" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> "Xingyiquan " .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/has_name> "Fire_Bending" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "breath_control" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "inner_drive" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "martial_arts" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "sun_energy" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire_Nation
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Meiji_Restoration> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q1347711> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q188712> .
+<https://www.wikidata.org/wiki/Q188712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/has_name> "Fire_Nation" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/known_for> "Propaganda" .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation> <https://github.com/ahsanv101/AvatarOnto/known_for> "War_Crimes" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Fire_Nation_Weapons
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Nation_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Weapon> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Flying_Bison
+<https://github.com/ahsanv101/AvatarOnto/Flying_Bison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Flying_Bison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Forbidden_City
+<https://github.com/ahsanv101/AvatarOnto/Forbidden_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Forbidden_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/General_Old_Iron
+<https://github.com/ahsanv101/AvatarOnto/General_Old_Iron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/General_Old_Iron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Gobi_Desert
+<https://github.com/ahsanv101/AvatarOnto/Gobi_Desert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Gobi_Desert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hai_Riyo_Peak
+<https://github.com/ahsanv101/AvatarOnto/Hai_Riyo_Peak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Hai_Riyo_Peak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hari_Bulkan
+<https://github.com/ahsanv101/AvatarOnto/Hari_Bulkan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Hari_Bulkan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hokkaido
+<https://github.com/ahsanv101/AvatarOnto/Hokkaido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Hokkaido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hong_Kong
+<https://github.com/ahsanv101/AvatarOnto/Hong_Kong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Hong_Kong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Hun_Gar_Style
+<https://github.com/ahsanv101/AvatarOnto/Hun_Gar_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Hun_Gar_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Katara
+<https://github.com/ahsanv101/AvatarOnto/Katara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Katara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Kemikurage
+<https://github.com/ahsanv101/AvatarOnto/Kemikurage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Kemikurage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Knowledge_Seekers
+<https://github.com/ahsanv101/AvatarOnto/Knowledge_Seekers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Knowledge_Seekers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Koh_the_Face_Stealer
+<https://github.com/ahsanv101/AvatarOnto/Koh_the_Face_Stealer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Koh_the_Face_Stealer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Korra
+<https://github.com/ahsanv101/AvatarOnto/Korra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Korra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Korras_Timeline
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> .
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <https://github.com/ahsanv101/AvatarOnto/has_name> "Korras_Timeline" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Kowloon_Walled_City
+<https://github.com/ahsanv101/AvatarOnto/Kowloon_Walled_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Kowloon_Walled_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Kyoshi_Warriors
+<https://github.com/ahsanv101/AvatarOnto/Kyoshi_Warriors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Kyoshi_Warriors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Military_Forces> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Kyoshis_Island
+<https://github.com/ahsanv101/AvatarOnto/Kyoshis_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Kyoshis_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lady_Tienhai
+<https://github.com/ahsanv101/AvatarOnto/Lady_Tienhai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Lady_Tienhai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lake_Laogai
+<https://github.com/ahsanv101/AvatarOnto/Lake_Laogai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Lake_Laogai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Lion_Turtle
+<https://github.com/ahsanv101/AvatarOnto/Lion_Turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Lion_Turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Mako
+<https://github.com/ahsanv101/AvatarOnto/Mako> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Mako> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Mongolia
+<https://github.com/ahsanv101/AvatarOnto/Mongolia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Mongolia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/North_Water_Nation
+<https://github.com/ahsanv101/AvatarOnto/North_Water_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/North_Water_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Nunavik
+<https://github.com/ahsanv101/AvatarOnto/Nunavik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Nunavik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Omashu
+<https://github.com/ahsanv101/AvatarOnto/Omashu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Omashu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Painted_Lady
+<https://github.com/ahsanv101/AvatarOnto/Painted_Lady> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Painted_Lady> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Paro_Taktsang
+<https://github.com/ahsanv101/AvatarOnto/Paro_Taktsang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Paro_Taktsang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Polar_Bear_Dog
+<https://github.com/ahsanv101/AvatarOnto/Polar_Bear_Dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Polar_Bear_Dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Post_Hundred_Year_War
+<https://github.com/ahsanv101/AvatarOnto/Post_Hundred_Year_War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Post_Hundred_Year_War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Qingdao
+<https://github.com/ahsanv101/AvatarOnto/Qingdao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Qingdao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Red_Lotus
+<https://github.com/ahsanv101/AvatarOnto/Red_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Red_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Military_Forces> .
+<https://github.com/ahsanv101/AvatarOnto/Red_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Political_Group> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Second_Age_of_the_Avatar
+<https://github.com/ahsanv101/AvatarOnto/Second_Age_of_the_Avatar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Second_Age_of_the_Avatar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Si_Wong_Desert
+<https://github.com/ahsanv101/AvatarOnto/Si_Wong_Desert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Si_Wong_Desert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Sokka
+<https://github.com/ahsanv101/AvatarOnto/Sokka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Sokka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/South_Water_Nation
+<https://github.com/ahsanv101/AvatarOnto/South_Water_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/South_Water_Nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Southern_Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spirit_Oasis
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Oasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Oasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Northern_Water_Tribe> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Oasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Spirit_Wilds
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Wilds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Wilds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Material_World> .
+<https://github.com/ahsanv101/AvatarOnto/Spirit_Wilds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Tenzin
+<https://github.com/ahsanv101/AvatarOnto/Tenzin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Tenzin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/The_Mother_of_Faces
+<https://github.com/ahsanv101/AvatarOnto/The_Mother_of_Faces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/The_Mother_of_Faces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/The_Tale_of_the_Two_Lovers
+<https://github.com/ahsanv101/AvatarOnto/The_Tale_of_the_Two_Lovers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/The_Tale_of_the_Two_Lovers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Toph
+<https://github.com/ahsanv101/AvatarOnto/Toph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Toph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Tui_and_La
+<https://github.com/ahsanv101/AvatarOnto/Tui_and_La> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Tui_and_La> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Uncle_Iroh
+<https://github.com/ahsanv101/AvatarOnto/Uncle_Iroh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Uncle_Iroh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <http://dbpedia.org/page/Industrial_Revolution> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://github.com/ahsanv101/AvatarOnto/Hong_Kong> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <http://dbpedia.org/page/Roaring_Twenties> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <https://github.com/ahsanv101/AvatarOnto/has_name> "Republic City" .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations> <https://github.com/ahsanv101/AvatarOnto/known_for> "Industrialization" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations_Weapons
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/United_Republic_of_Nations_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Weapon> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Vaatu_and_Raava
+<https://github.com/ahsanv101/AvatarOnto/Vaatu_and_Raava> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Vaatu_and_Raava> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Venice
+<https://github.com/ahsanv101/AvatarOnto/Venice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Venice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tong
+<https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Spirit> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tongs_Library
+<https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tongs_Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Wan_Shi_Tongs_Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water
+<https://github.com/ahsanv101/AvatarOnto/Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Water> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <https://github.com/ahsanv101/AvatarOnto/inspired_by> <https://www.wikidata.org/wiki/Q1149795> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <https://github.com/ahsanv101/AvatarOnto/uses> "moon_energy" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water_Bending
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Water_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/from> <https://github.com/ahsanv101/AvatarOnto/Water_Tribe> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/has_name> "Water_Bending" .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "chi" .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "emotional_control" .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "ice" .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "martial_arts" .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> "water" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water_Tribe
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Water_Tribe> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe> <https://github.com/ahsanv101/AvatarOnto/has_name> "Water_Tribe" .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Water_Tribe_Weapons
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Water_Tribe_Weapons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Weapon> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Western_Air_Temple
+<https://github.com/ahsanv101/AvatarOnto/Western_Air_Temple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Western_Air_Temple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Fire_Nation> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/White_Lotus
+<https://github.com/ahsanv101/AvatarOnto/White_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/White_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Military_Forces> .
+<https://github.com/ahsanv101/AvatarOnto/White_Lotus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Political_Group> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Winged_Lemur
+<https://github.com/ahsanv101/AvatarOnto/Winged_Lemur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Winged_Lemur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Creature> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Wolf_Cove
+<https://github.com/ahsanv101/AvatarOnto/Wolf_Cove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Wolf_Cove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Southern_Water_Tribe> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Wulong_Forest
+<https://github.com/ahsanv101/AvatarOnto/Wulong_Forest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Wulong_Forest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Wulong_Karst
+<https://github.com/ahsanv101/AvatarOnto/Wulong_Karst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Wulong_Karst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Xai_Baus_Grove
+<https://github.com/ahsanv101/AvatarOnto/Xai_Baus_Grove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Xai_Baus_Grove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Avatar_Legend> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Yangtze_Province
+<https://github.com/ahsanv101/AvatarOnto/Yangtze_Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Yangtze_Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Yu_Dao_Village
+<https://github.com/ahsanv101/AvatarOnto/Yu_Dao_Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Yu_Dao_Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Earth_Kingdom> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Zhangjiajie_National_Forest_Park
+<https://github.com/ahsanv101/AvatarOnto/Zhangjiajie_National_Forest_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Zhangjiajie_National_Forest_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World> .
+# 
+# https://github.com/ahsanv101/AvatarOnto/Zuko
+<https://github.com/ahsanv101/AvatarOnto/Zuko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/ahsanv101/AvatarOnto/Zuko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Person> .
+# 
+# https://www.geonames.org/1279685
+# 
+# https://www.geonames.org/1282988
+# 
+# https://www.wikidata.org/wiki/Q11282348
+<https://www.wikidata.org/wiki/Q11282348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q11282348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q1149795
+<https://www.wikidata.org/wiki/Q1149795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q1149795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Belief> .
+# 
+# https://www.wikidata.org/wiki/Q1280973
+<https://www.wikidata.org/wiki/Q1280973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q1280973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# https://www.wikidata.org/wiki/Q1347711
+<https://www.wikidata.org/wiki/Q1347711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q1347711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q1353709
+<https://www.wikidata.org/wiki/Q1353709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q1353709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q167987
+<https://www.wikidata.org/wiki/Q167987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q167987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q179575
+<https://www.wikidata.org/wiki/Q179575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q179575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q188712
+# 
+# https://www.wikidata.org/wiki/Q199701
+<https://www.wikidata.org/wiki/Q199701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q199701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q28179
+<https://www.wikidata.org/wiki/Q28179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q28179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# https://www.wikidata.org/wiki/Q418226
+<https://www.wikidata.org/wiki/Q418226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q418226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q5521630
+<https://www.wikidata.org/wiki/Q5521630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q5521630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q645917
+<https://www.wikidata.org/wiki/Q645917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q645917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q692111
+<https://www.wikidata.org/wiki/Q692111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q692111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q715162
+<https://www.wikidata.org/wiki/Q715162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q715162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q718580
+<https://www.wikidata.org/wiki/Q718580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q718580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q7318
+<https://www.wikidata.org/wiki/Q7318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q7318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# https://www.wikidata.org/wiki/Q7559
+<https://www.wikidata.org/wiki/Q7559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q7559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Legend> .
+# 
+# https://www.wikidata.org/wiki/Q82723
+<https://www.wikidata.org/wiki/Q82723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q82723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q831454
+<https://www.wikidata.org/wiki/Q831454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q831454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Culture_and_Tradition> .
+# 
+# https://www.wikidata.org/wiki/Q99717
+<https://www.wikidata.org/wiki/Q99717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/wiki/Q99717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/ahsanv101/AvatarOnto/Real_World_Timeline> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://github.com/ahsanv101/AvatarOnto/Aangs_Timeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to all the events contained into Aang's timeline as annotations." .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Air_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Flying> .
+<https://github.com/ahsanv101/AvatarOnto/Air> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Spiritual_Projection> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "The erokinetic ability to control and manipulate air." .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <https://www.wikidata.org/wiki/Q5521630> .
+<https://github.com/ahsanv101/AvatarOnto/Air_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> <https://github.com/ahsanv101/AvatarOnto/Air> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Earth> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Earth_Bending> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "The geokinetic ability to manipulate earth and rock in all their various form." .
+<https://github.com/ahsanv101/AvatarOnto/Earth_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <https://github.com/ahsanv101/AvatarOnto/Hun_Gar_Style> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Combustionbending> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Fire_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Lightning_Generation> .
+<https://github.com/ahsanv101/AvatarOnto/Fire> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Lightning_Redirection> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "The pyrokinetic ability to control and produce fire." .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <https://github.com/ahsanv101/AvatarOnto/Bai_Shaolin_Style> .
+<https://github.com/ahsanv101/AvatarOnto/Fire_Bending> <https://github.com/ahsanv101/AvatarOnto/uses> <https://github.com/ahsanv101/AvatarOnto/Fire> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Korras_Timeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass referring to all the events contained into Korra's timeline as annotations." .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Water> <https://github.com/ahsanv101/AvatarOnto/has_feature> <https://github.com/ahsanv101/AvatarOnto/Water_Bending> .
+<https://github.com/ahsanv101/AvatarOnto/Water> <https://github.com/ahsanv101/AvatarOnto/uses> <https://github.com/ahsanv101/AvatarOnto/Tui_and_La> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <http://www.w3.org/2000/01/rdf-schema#comment> "The hydrokinetic ability to control water in all of its various forms." .
+<https://github.com/ahsanv101/AvatarOnto/Water_Bending> <https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <https://www.wikidata.org/wiki/Q167987> .
+# 
+<https://github.com/ahsanv101/AvatarOnto/has_feature> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes any relevant and particular trait that a fictional or real element could have." .
+# 
+<https://github.com/ahsanv101/AvatarOnto/has_fighting_style> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the fighting style of a bending technique or a fighting technique known by a character." .
+# 
+<https://github.com/ahsanv101/AvatarOnto/uses> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to any element used to be obtain something, perform an ability or bring an advantage to another individual or entity." .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

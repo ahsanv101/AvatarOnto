@@ -1,0 +1,3215 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://ahsanv101.github.io/AvatarOnto/", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "97",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "107",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Knowledge_Based_Object",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Knowledge_Based_Object"
+    },
+    "comment" : {
+      "undefined" : "Subclass referring to any kind of object capable of transmitting knowledge."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Armor",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Armor"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Belief",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Belief"
+    },
+    "individuals" : [ {
+      "iri" : "http://dbpedia.org/page/Buddhism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Buddhism"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Hinduism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Hinduism"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Anarchism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Anarchism"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q1149795",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q1149795"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Populism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Populism"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Taoism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Taoism"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Shinto",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Shinto"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Belief is a subclass for any political, religious or philosophical orientation"
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spiritbending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spiritbending"
+    },
+    "comment" : {
+      "undefined" : "Spiritbending is a variation of the healing technique which allows the user to instill a balance or an imbalance within spirits."
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Ability",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ability"
+    },
+    "subClasses" : [ "18", "19" ],
+    "comment" : {
+      "undefined" : "The superclass Ability refers to all the powers, talents and capacities that an individual can use in the Avatar universe. "
+    },
+    "id" : "17"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Seismic_Sense",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seismic_Sense"
+    },
+    "comment" : {
+      "undefined" : "A specialized earth-bender technique for sensing vibrations through the ground, \"seeing\" by sensing its surroundings and making a mental image of it."
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Person",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Uncle_Iroh",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Uncle_Iroh"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Mako",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Mako"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Korra",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Korra"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Zuko",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Zuko"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Tenzin",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Tenzin"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Katara",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Katara"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Asami_Sato",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Asami_Sato"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Aang",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Aang"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Bolin",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Bolin"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Sokka",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Sokka"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Toph",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Toph"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Azula",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Azula"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass referring to human beings."
+    },
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hand_Combat",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hand_Combat"
+    },
+    "comment" : {
+      "undefined" : "Type of non-bending ability, related to martial arts and physical combat."
+    },
+    "id" : "26",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "United_Republic_of_Nations"
+    },
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Circle",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Avatar_Circle"
+    },
+    "comment" : {
+      "undefined" : "Subclass referring to the closest people to the Avatars."
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Culture_and_Tradition"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.wikidata.org/wiki/Q167987",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q167987"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Hun_Gar_Style"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q1347711",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q1347711"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q831454",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q831454"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q199701",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q199701"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q11282348",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q11282348"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q645917",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q645917"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Bai_Shaolin_Style"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q82723",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q82723"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q5521630",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q5521630"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Culture_and_Tradition addresses all references and instances of real-life culture."
+    },
+    "id" : "37",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_World_Timeline"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.wikidata.org/wiki/Q28179",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q28179"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Dai_Li",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Dai_Li"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Annexation_of_Tibet_by_the_Peoples_Republic_of_China"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/First_Sino_Japanese_War",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "First_Sino_Japanese_War"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Taiping_Rebellion",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Taiping_Rebellion"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Nanjing_Massacre",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Nanjing_Massacre"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Meiji_Restoration",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Meiji_Restoration"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Roaring_Twenties",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Roaring_Twenties"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q1280973",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q1280973"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Ming_Dynasty",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Ming_Dynasty"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Qing_Dynasty",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Qing_Dynasty"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q99717",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q99717"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q7318",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q7318"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Industrial_Revolution",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Industrial_Revolution"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass referring to all real life events used as inspiration or reference in the Avatar universe."
+    },
+    "id" : "40",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Korras_Timeline"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Second_Age_of_the_Avatar",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Second_Age_of_the_Avatar"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Post_Hundred_Year_War",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Post_Hundred_Year_War"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass referring to all the events contained into Korra's timeline as annotations."
+    },
+    "id" : "41",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_World",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Avatar_World"
+    },
+    "subClasses" : [ "44", "34" ],
+    "comment" : {
+      "undefined" : "Subclass describing all the places of the Avatar world."
+    },
+    "id" : "31",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Transport",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport"
+    },
+    "subClasses" : [ "49", "50" ],
+    "comment" : {
+      "undefined" : "Superclass defining any kind of transportation."
+    },
+    "id" : "48"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Element",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Element"
+    },
+    "subClasses" : [ "52", "53", "54", "55" ],
+    "comment" : {
+      "undefined" : "Element contains the foundation of the Avatar universe: the four elements."
+    },
+    "id" : "51"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Living_Being"
+    },
+    "subClasses" : [ "61", "24", "62" ],
+    "comment" : {
+      "undefined" : "Superclass addressing all the existing individuals, creatures and supernatural entities living in the Avatar universe. "
+    },
+    "id" : "25"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Melee_Combat",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Melee_Combat"
+    },
+    "comment" : {
+      "undefined" : "Type of non-bending ability, related to any fight involving a short range weapon (like a sword or a dagger)."
+    },
+    "id" : "63",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Combustionbending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Combustionbending"
+    },
+    "comment" : {
+      "undefined" : "The form of telekinetic firebending."
+    },
+    "id" : "64",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lavabending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lavabending"
+    },
+    "comment" : {
+      "undefined" : "A specialized earth-bending technique allowing to change phase of the earth, melting it into lava for more versatility in battle."
+    },
+    "id" : "66",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Southern_Water_Tribe"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Wolf_Cove",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Wolf_Cove"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#South_Water_Nation",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "South_Water_Nation"
+      }
+    } ],
+    "id" : "67",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Political_Group"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#White_Lotus",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "White_Lotus"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Empire",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Earth_Empire"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Equalists",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Equalists"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Red_Lotus",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Red_Lotus"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass referring to any political party or government apparatus."
+    },
+    "id" : "69",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Metalbending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metalbending"
+    },
+    "comment" : {
+      "undefined" : "A specialized earth-bending technique to manipulate metal."
+    },
+    "id" : "70",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Air",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "has_feature" : [ {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending",
+        "type" : "iri"
+      }, {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Flying",
+        "type" : "iri"
+      }, {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Air"
+    },
+    "id" : "52",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Aangs_Timeline"
+    },
+    "comment" : {
+      "undefined" : "Subclass referring to all the events contained into Aang's timeline as annotations."
+    },
+    "id" : "76",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Air_Nation"
+    },
+    "id" : "77",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Northern_Water_Tribe"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#North_Water_Nation",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "North_Water_Nation"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Agna_Qela",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Agna_Qela"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Oasis",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Spirit_Oasis"
+      }
+    } ],
+    "id" : "78",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "has_fighting_style" : [ {
+        "identifier" : "has_fighting_style",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q167987",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Water_Bending"
+    },
+    "subClasses" : [ "10", "80" ],
+    "comment" : {
+      "undefined" : "The hydrokinetic ability to control water in all of its various forms."
+    },
+    "id" : "79",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non-bending"
+    },
+    "subClasses" : [ "26", "81", "63" ],
+    "comment" : {
+      "undefined" : "Non_Bending refers to different combat styles, going from hand-combat, too melee-combat to ranged-combat (here contained as ulterior subclasses)"
+    },
+    "id" : "19",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Military_Forces"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Equalists",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Equalists"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Empire",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Earth_Empire"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#White_Lotus",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "White_Lotus"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Kyoshi_Warriors",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Kyoshi_Warriors"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Red_Lotus",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Red_Lotus"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass containing all organizations with a strong military apparatus or attitude."
+    },
+    "id" : "82",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Animate_Transport",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Animate_Transport"
+    },
+    "comment" : {
+      "undefined" : "Subclass describing any kind of animal mount used as transportation."
+    },
+    "id" : "50",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "uses" : [ {
+        "identifier" : "uses",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Air",
+        "type" : "iri"
+      } ],
+      "has_fighting_style" : [ {
+        "identifier" : "has_fighting_style",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q5521630",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Air_Bending"
+    },
+    "subClasses" : [ "85", "86" ],
+    "comment" : {
+      "undefined" : "The erokinetic ability to control and manipulate air."
+    },
+    "id" : "84",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Location",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "subClasses" : [ "31", "29" ],
+    "comment" : {
+      "undefined" : "Superclass that refers to all kinds of places, both fictional and non-fictional."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Earth_Kingdom"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Eastern_Air_Temple",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Eastern_Air_Temple"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Si_Wong_Desert",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Si_Wong_Desert"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Kyoshis_Island",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Kyoshis_Island"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Omashu",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Omashu"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lake_Laogai",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Lake_Laogai"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Wulong_Forest",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Wulong_Forest"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Yu_Dao_Village",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Yu_Dao_Village"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Nation",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Earth_Nation"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Ba_Sing_Se",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Ba_Sing_Se"
+      }
+    } ],
+    "id" : "87",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Fire_Nation"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Boiling_Rock_Prison",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Boiling_Rock_Prison"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Capital_City",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Capital_City"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hari_Bulkan",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Hari_Bulkan"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Western_Air_Temple",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Western_Air_Temple"
+      }
+    } ],
+    "id" : "89",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_World_Legend"
+    },
+    "individuals" : [ {
+      "iri" : "http://dbpedia.org/page/Korean_mythology",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Korean_mythology"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q418226",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q418226"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Chinese_mythology",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Chinese_mythology"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Japanese_mythology",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Japanese_mythology"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q692111",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q692111"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q718580",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q718580"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Inuit_religion",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Inuit_religion"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Zoroastrianism",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Zoroastrianism"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q7559",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q7559"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Mythologies_of_the_indigenous_peoples_of_the_Americas"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q1353709",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q1353709"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q715162",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q715162"
+      }
+    }, {
+      "iri" : "https://www.wikidata.org/wiki/Q179575",
+      "baseIri" : "https://www.wikidata.org/wiki",
+      "labels" : {
+        "IRI-based" : "Q179575"
+      }
+    }, {
+      "iri" : "http://dbpedia.org/page/Vietnamese_mythology",
+      "baseIri" : "http://dbpedia.org/page",
+      "labels" : {
+        "IRI-based" : "Vietnamese_mythology"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Legends belonging to our world."
+    },
+    "id" : "92",
+    "superClasses" : [ "58" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "51", "17", "25", "39", "48", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "17", "25" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Concept",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "subClasses" : [ "58", "7", "37" ],
+    "comment" : {
+      "undefined" : "Concept addresses all political views, traditions, myths and cultural feats coming both from our world and from Avatar's universe. "
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "1", "51", "17", "25", "39", "8", "48", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Bloodbending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bloodbending"
+    },
+    "comment" : {
+      "undefined" : "Specialized sub-skill and rare variant of waterbending allows an extremely advanced waterbender to take hold of and manipulate fluids within an organism's body."
+    },
+    "id" : "80",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Armament",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Armament"
+    },
+    "subClasses" : [ "2", "100", "101" ],
+    "comment" : {
+      "undefined" : "Subclass containing any kind of armament."
+    },
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "39", "8", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "39", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "25", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "39" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "103"
+  }, {
+    "instances" : 0,
+    "union" : [ "29", "40", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "73"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "1", "51", "17", "25", "39", "8", "48", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "107"
+  }, {
+    "instances" : 0,
+    "union" : [ "29", "40", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Real_World",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_World"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#China",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "China"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Yangtze_Province",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Yangtze_Province"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Gobi_Desert",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Gobi_Desert"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Nunavik",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Nunavik"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Qingdao",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Qingdao"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Cambodia",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Cambodia"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Forbidden_City",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Forbidden_City"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Angkor_Wat",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Angkor_Wat"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Kowloon_Walled_City",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Kowloon_Walled_City"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hokkaido",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Hokkaido"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Zhangjiajie_National_Forest_Park",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Zhangjiajie_National_Forest_Park"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Beijing",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Beijing"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Wulong_Karst",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Wulong_Karst"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Mongolia",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Mongolia"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Paro_Taktsang",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Paro_Taktsang"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hong_Kong",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Hong_Kong"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Venice",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Venice"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass containing all the reference to actual locations and places coming from our world."
+    },
+    "id" : "29",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Creature",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creature"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Flying_Bison",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Flying_Bison"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Arctic_Camel",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Arctic_Camel"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Winged_Lemur",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Winged_Lemur"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Polar_Bear_Dog",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Polar_Bear_Dog"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Appa",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Appa"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass used to described any type of animal belonging to the Avatar world."
+    },
+    "id" : "61",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Weapon",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Weapon"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation_Weapons",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Fire_Nation_Weapons"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation_Weapons",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Air_Nation_Weapons"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations_Weapons",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "United_Republic_of_Nations_Weapons"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe_Weapons",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Water_Tribe_Weapons"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom_Weapons",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Earth_Kingdom_Weapons"
+      }
+    } ],
+    "id" : "101",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Healing",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Healing"
+    },
+    "subClasses" : [ "9" ],
+    "comment" : {
+      "undefined" : "A special ability possessed by some waterbenders that enables them to heal those who have been wounded, including themselves."
+    },
+    "id" : "10",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Event",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "40", "76", "41" ],
+    "comment" : {
+      "undefined" : "The superclass Event refers to moments in times and both fictional and non-fictional historical events."
+    },
+    "id" : "12"
+  }, {
+    "instances" : 0,
+    "union" : [ "61", "62" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Fire",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "has_feature" : [ {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Combustionbending",
+        "type" : "iri"
+      }, {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection",
+        "type" : "iri"
+      }, {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation",
+        "type" : "iri"
+      }, {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fire"
+    },
+    "id" : "53",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Legend",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Legend"
+    },
+    "subClasses" : [ "92", "127" ],
+    "comment" : {
+      "undefined" : "Legend refers to any myth, mythological creature or legend coming coming from our world and, also, from the Avatar universe."
+    },
+    "id" : "58",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lightning_Redirection"
+    },
+    "comment" : {
+      "undefined" : "Sub-skill of firebending that allows a firebender to absorb lightning into their body as energy and release it in a more desirable direction."
+    },
+    "id" : "128",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Group",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Group"
+    },
+    "subClasses" : [ "82", "38", "69" ],
+    "comment" : {
+      "undefined" : "Superclass containing any organization or social circle counting more than one individual in it."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "uses" : [ {
+        "identifier" : "uses",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Fire",
+        "type" : "iri"
+      } ],
+      "has_fighting_style" : [ {
+        "identifier" : "has_fighting_style",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fire_Bending"
+    },
+    "subClasses" : [ "64", "129", "128" ],
+    "comment" : {
+      "undefined" : "The pyrokinetic ability to control and produce fire."
+    },
+    "id" : "65",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lightning_Generation"
+    },
+    "comment" : {
+      "undefined" : "Sub-skill of firebending that allows a firebender to produce and guide a bolt of lightning from their fingertips."
+    },
+    "id" : "129",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Ranged_Combat",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ranged_Combat"
+    },
+    "comment" : {
+      "undefined" : "Type of non-bending ability, related to any fighting technique involving a long-range weapon (such as a bow or a gun)."
+    },
+    "id" : "81",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "has_fighting_style" : [ {
+        "identifier" : "has_fighting_style",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Earth_Bending"
+    },
+    "subClasses" : [ "20", "66", "70" ],
+    "comment" : {
+      "undefined" : "The geokinetic ability to manipulate earth and rock in all their various form."
+    },
+    "id" : "21",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Water_Tribe"
+    },
+    "subClasses" : [ "67", "78" ],
+    "id" : "68",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Energy_Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Energy_Bending"
+    },
+    "comment" : {
+      "undefined" : "The ability to bend another person's life energy."
+    },
+    "id" : "146",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Artillery",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artillery"
+    },
+    "id" : "100",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Bending",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bending"
+    },
+    "subClasses" : [ "21", "79", "146", "65", "84" ],
+    "comment" : {
+      "undefined" : "Bending was created to address all the bending techniques of the Avatar world (firebending, waterbending, airbending, earthbending) and their respective specializations (here contained as their subclasses)"
+    },
+    "id" : "18",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Object",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object"
+    },
+    "subClasses" : [ "3", "0" ],
+    "comment" : {
+      "undefined" : "Superclass defining any kind of tool or resource with a purpose, a physical form and a shape."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_World",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spirit_World"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Wilds",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Spirit_Wilds"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Oasis",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Spirit_Oasis"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The dimension where the spirits live."
+    },
+    "id" : "44",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Flying",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flying"
+    },
+    "comment" : {
+      "undefined" : "Highest level of Airbending, unique ability."
+    },
+    "id" : "86",
+    "superClasses" : [ "84" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "25" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "145"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "1", "51", "17", "25", "34", "39", "8", "48", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Material_World",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material_World"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Wilds",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Spirit_Wilds"
+      }
+    } ],
+    "subClasses" : [ "68", "33", "77", "87", "89" ],
+    "comment" : {
+      "undefined" : "Subclass defining all the locations belonging to th mortal world of Avatar."
+    },
+    "id" : "34",
+    "superClasses" : [ "31" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "39" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Avatar_Legend"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#The_Tale_of_the_Two_Lovers",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "The_Tale_of_the_Two_Lovers"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Hai_Riyo_Peak",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Hai_Riyo_Peak"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Xai_Baus_Grove",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Xai_Baus_Grove"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tongs_Library",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Wan_Shi_Tongs_Library"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Legends belonging to the Avatar Universe."
+    },
+    "id" : "127",
+    "superClasses" : [ "58" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "58", "19", "25", "39", "48" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "23"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "1", "17", "25", "8", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "57"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "1", "51", "17", "25", "39", "8", "48", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spiritual_Projection"
+    },
+    "comment" : {
+      "undefined" : "A specialized airbending technique that consists of projecting one's spirit out of the body to travel to another location."
+    },
+    "id" : "85",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Water",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "uses" : [ {
+        "identifier" : "uses",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Tui_and_La",
+        "type" : "iri"
+      } ],
+      "has_feature" : [ {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Water"
+    },
+    "id" : "55",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Inanimate_Transport",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inanimate_Transport"
+    },
+    "comment" : {
+      "undefined" : "Subclass describing any kind of artificial structure used as transportation."
+    },
+    "id" : "49",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Earth",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 1,
+    "annotations" : {
+      "has_feature" : [ {
+        "identifier" : "has_feature",
+        "language" : "undefined",
+        "value" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Earth"
+    },
+    "id" : "54",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#Spirit",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spirit"
+    },
+    "individuals" : [ {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tong",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Wan_Shi_Tong"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Tui_and_La",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Tui_and_La"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lady_Tienhai",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Lady_Tienhai"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Vaatu_and_Raava",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Vaatu_and_Raava"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Knowledge_Seekers",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Knowledge_Seekers"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#The_Mother_of_Faces",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "The_Mother_of_Faces"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Kemikurage",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Kemikurage"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Koh_the_Face_Stealer",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Koh_the_Face_Stealer"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Lion_Turtle",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Lion_Turtle"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#Painted_Lady",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "Painted_Lady"
+      }
+    }, {
+      "iri" : "https://ahsanv101.github.io/AvatarOnto/#General_Old_Iron",
+      "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+      "labels" : {
+        "IRI-based" : "General_Old_Iron"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Subclass defining supernatural entities of the Avatar world."
+    },
+    "id" : "62",
+    "superClasses" : [ "25" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "90",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "91",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "94",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "130",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "131",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "132",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "133",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "134",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "135",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "136",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "137",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "174",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "177",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#known_for",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "known_for"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Explicits a trait that a location is known for by the public."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_event",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_event"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Defines any event belonging to a timeline."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_part_of",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_part_of"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "Describes the relationship between a fictional element and the group it belongs to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#from",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "from"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Defines the provenance of a specific element."
+    },
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_sibling_of",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_sibling_of"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the familial relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "range" : "5",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#loves",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "loves"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "culturally_derives_from"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "Highlights the cultural connection between a fictional element (ex. \"Kyoshi Warriors\") and a cultural instance belonging to our reality (ex. \"Geisha\")"
+    },
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_date",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "has_date"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Refers to the date of a specific event."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "has_fighting_style"
+    },
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "Defines the fighting style of a bending technique or a fighting technique known by a character."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_legend",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "has_legend"
+    },
+    "domain" : "57",
+    "comment" : {
+      "undefined" : "Refers to any possible connection between a fictional element and a legend about it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_enemy_of",
+    "inverse" : "60",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_enemy_of"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_friend_of",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_friend_of"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#inspired_by",
+    "inverse" : "74",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "inspired_by"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "Describes how a fictional element  was inspired by a real historical, scientific or political element."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_ability",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "has_ability"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Indicates any ability possessed by a living being."
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_member",
+    "inverse" : "14",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_member"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "Describes the relationship between a group and its members."
+    },
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "domain" : "77",
+    "range" : "77",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "30",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "84",
+    "range" : "84",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "29",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "52",
+    "range" : "52",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "28",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "76",
+    "range" : "76",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "27",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_child_of",
+    "inverse" : "99",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_child_of"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the familial relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#participated_in",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "participated_in"
+    },
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_related_to",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_related_to"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the familial relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "106"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "12",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "12",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#existed_in",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "existed_in"
+    },
+    "domain" : "113",
+    "comment" : {
+      "undefined" : "Describes if a specific individual or group of individuals has lived trough a specific timeline or event."
+    },
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_name",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "has_name"
+    },
+    "domain" : "97",
+    "comment" : {
+      "undefined" : "Introduces the name of a fictional or real element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "114"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_disciple",
+    "inverse" : "117",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_disciple"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the teacher-student relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "range" : "8",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "3",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "3",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "17",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "8",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "domain" : "68",
+    "range" : "68",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "40",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "79",
+    "range" : "79",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "39",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "41",
+    "range" : "41",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "89",
+    "range" : "89",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "55",
+    "range" : "55",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "38",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "33",
+    "range" : "33",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "21",
+    "range" : "21",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "32",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "54",
+    "range" : "54",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "31",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "65",
+    "range" : "65",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_master",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_master"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the teacher-student relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "domain" : "53",
+    "range" : "53",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "33",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "51",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "51",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "51",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "51",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "68",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "bends"
+    },
+    "domain" : "145",
+    "comment" : {
+      "undefined" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+    },
+    "attributes" : [ "object" ],
+    "id" : "144"
+  }, {
+    "range" : "68",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "21",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "48",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_companion_of",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_companion_of"
+    },
+    "domain" : "125",
+    "comment" : {
+      "undefined" : "Describes the bond between a creature or a spirit and a person."
+    },
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "range" : "48",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "21",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "65",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "65",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "31",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#inspires",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "inspires"
+    },
+    "domain" : "108",
+    "comment" : {
+      "undefined" : "Defines how an historical, scientific or political element from our world inspired a fictional element of the Avatar world."
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "range" : "31",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "39",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "65",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "58",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "12",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "39",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "58",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "19",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "19",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "84",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#uses",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "uses"
+    },
+    "domain" : "93",
+    "comment" : {
+      "undefined" : "Refers to any element used to be obtain something, perform an ability or bring an advantage to another individual or entity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "168"
+  }, {
+    "range" : "84",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "79",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "19",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "79",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "bends"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "bends"
+    },
+    "domain" : "79",
+    "comment" : {
+      "undefined" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "174"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#has_feature",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "has_feature"
+    },
+    "domain" : "104",
+    "comment" : {
+      "undefined" : "Describes any relevant and particular trait that a fictional or real element could have."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "bends"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "bends"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "177"
+  }, {
+    "range" : "34",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "34",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "34",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "https://ahsanv101.github.io/AvatarOnto/#is_parent_of",
+    "baseIri" : "https://ahsanv101.github.io/AvatarOnto/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_parent_of"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Describes the familial relationship between two living beings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "18",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "34",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "18",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "18",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "18",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "25",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "18",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "25",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  } ]
+}

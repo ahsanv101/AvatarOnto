@@ -1,0 +1,1627 @@
+@prefix : <https://ahsanv101.github.io/AvatarOnto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://ahsanv101.github.io/AvatarOnto/> .
+
+<https://ahsanv101.github.io/AvatarOnto/> rdf:type owl:Ontology ;
+                                           owl:versionIRI <https://ahsanv101.github.io/AvatarOnto/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://ahsanv101.github.io/AvatarOnto/#bends
+<https://ahsanv101.github.io/AvatarOnto/#bends> rdf:type owl:ObjectProperty ;
+                                                rdfs:domain [ rdf:type owl:Class ;
+                                                              owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Bending>
+                                                                            <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                          )
+                                                            ] ;
+                                                rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Element> ;
+                                                rdfs:comment "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from
+<https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:domain [ rdf:type owl:Class ;
+                                                                                owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Element>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Material_World>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                                              <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                                            )
+                                                                              ] ;
+                                                                  rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> ;
+                                                                  rdfs:comment "Highlights the cultural connection between a fictional element (ex. \"Kyoshi Warriors\") and a cultural instance belonging to our reality (ex. \"Geisha\")" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#existed_in
+<https://ahsanv101.github.io/AvatarOnto/#existed_in> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain [ rdf:type owl:Class ;
+                                                                   owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                               )
+                                                                 ] ;
+                                                     rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Event> ;
+                                                     rdfs:comment "Describes if a specific group or individual has participated to an historical event." ,
+                                                                  "Describes if a specific individual or group of individuals has lived trough a specific timeline or event." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#from
+<https://ahsanv101.github.io/AvatarOnto/#from> rdf:type owl:ObjectProperty ;
+                                               rdfs:domain [ rdf:type owl:Class ;
+                                                             owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Legend>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Non-bending>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                         )
+                                                           ] ;
+                                               rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Location> ;
+                                               rdfs:comment "Defines the provenance of a specific element." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_ability
+<https://ahsanv101.github.io/AvatarOnto/#has_ability> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                      rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Ability> ;
+                                                      rdfs:comment "Indicates any ability possessed by a living being." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_disciple
+<https://ahsanv101.github.io/AvatarOnto/#has_disciple> rdf:type owl:ObjectProperty ;
+                                                       owl:inverseOf <https://ahsanv101.github.io/AvatarOnto/#has_master> ;
+                                                       rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:comment "Describes the teacher-student relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_legend
+<https://ahsanv101.github.io/AvatarOnto/#has_legend> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain [ rdf:type owl:Class ;
+                                                                   owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                               )
+                                                                 ] ;
+                                                     rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Legend> ;
+                                                     rdfs:comment "Refers to any possible connection between a fictional element and a legend about it." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_master
+<https://ahsanv101.github.io/AvatarOnto/#has_master> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                     rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                     rdfs:comment "Describes the teacher-student relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_member
+<https://ahsanv101.github.io/AvatarOnto/#has_member> rdf:type owl:ObjectProperty ;
+                                                     owl:inverseOf <https://ahsanv101.github.io/AvatarOnto/#is_part_of> ;
+                                                     rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Group> ;
+                                                     rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                     rdfs:comment "Describes the relationship between a group and its members." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#inspired_by
+<https://ahsanv101.github.io/AvatarOnto/#inspired_by> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <https://ahsanv101.github.io/AvatarOnto/#inspires> ;
+                                                      rdfs:domain [ rdf:type owl:Class ;
+                                                                    owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Element>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                                )
+                                                                  ] ;
+                                                      rdfs:range [ rdf:type owl:Class ;
+                                                                   owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline>
+                                                                               )
+                                                                 ] ;
+                                                      rdfs:comment "Describes how a fictional element  was inspired by a real historical, scientific or political element." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#inspires
+<https://ahsanv101.github.io/AvatarOnto/#inspires> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Real_World>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline>
+                                                                             )
+                                                               ] ;
+                                                   rdfs:range [ rdf:type owl:Class ;
+                                                                owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Element>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                            )
+                                                              ] ;
+                                                   rdfs:comment "Defines how an historical, scientific or political element from our world inspired a fictional element of the Avatar world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_child_of
+<https://ahsanv101.github.io/AvatarOnto/#is_child_of> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <https://ahsanv101.github.io/AvatarOnto/#is_parent_of> ;
+                                                      rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                      rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                      rdfs:comment "Describes the familial relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_companion_of
+<https://ahsanv101.github.io/AvatarOnto/#is_companion_of> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Creature> ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Spirit> ;
+                                                          rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Person> ;
+                                                          rdfs:comment "Describes the bond between a creature or a spirit and a person." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_enemy_of
+<https://ahsanv101.github.io/AvatarOnto/#is_enemy_of> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <https://ahsanv101.github.io/AvatarOnto/#is_friend_of> ;
+                                                      rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                      rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                      rdfs:comment "Describes the relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_friend_of
+<https://ahsanv101.github.io/AvatarOnto/#is_friend_of> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:comment "Describes the relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_parent_of
+<https://ahsanv101.github.io/AvatarOnto/#is_parent_of> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                       rdfs:comment "Describes the familial relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_part_of
+<https://ahsanv101.github.io/AvatarOnto/#is_part_of> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain [ rdf:type owl:Class ;
+                                                                   owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                 <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                               )
+                                                                 ] ;
+                                                     rdfs:range [ rdf:type owl:Class ;
+                                                                  owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                                <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                              )
+                                                                ] ;
+                                                     rdfs:comment "Describes the relationship between a fictional element and the group it belongs to." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_related_to
+<https://ahsanv101.github.io/AvatarOnto/#is_related_to> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                        rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                        rdfs:comment "Describes the familial relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#is_sibling_of
+<https://ahsanv101.github.io/AvatarOnto/#is_sibling_of> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                        rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                        rdfs:comment "Describes the familial relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#loves
+<https://ahsanv101.github.io/AvatarOnto/#loves> rdf:type owl:ObjectProperty ;
+                                                rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                rdfs:comment "Describes the relationship between two living beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#participated_in
+<https://ahsanv101.github.io/AvatarOnto/#participated_in> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                      <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                    )
+                                                                      ] ;
+                                                          rdfs:range <https://ahsanv101.github.io/AvatarOnto/#Event> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_date
+<https://ahsanv101.github.io/AvatarOnto/#has_date> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Event> ;
+                                                   rdfs:range xsd:string ;
+                                                   rdfs:comment "Refers to the date of a specific event." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_event
+<https://ahsanv101.github.io/AvatarOnto/#has_event> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Event> ;
+                                                    rdfs:range xsd:string ;
+                                                    rdfs:comment "Defines any event belonging to a timeline." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_feature
+<https://ahsanv101.github.io/AvatarOnto/#has_feature> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain [ rdf:type owl:Class ;
+                                                                    owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                  <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                                )
+                                                                  ] ;
+                                                      rdfs:range xsd:string .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_fighting_style
+<https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain [ rdf:type owl:Class ;
+                                                                           owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                                         <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                                       )
+                                                                         ] ;
+                                                             rdfs:range xsd:string .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#has_name
+<https://ahsanv101.github.io/AvatarOnto/#has_name> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Concept>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Element>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Event>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                               <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                             )
+                                                               ] ;
+                                                   rdfs:range xsd:string ;
+                                                   rdfs:comment "Introduces the name of a fictional or real element." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#known_for
+<https://ahsanv101.github.io/AvatarOnto/#known_for> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <https://ahsanv101.github.io/AvatarOnto/#Location> ;
+                                                    rdfs:range xsd:string ;
+                                                    rdfs:comment "Explicits a trait that a location is known for by the public." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#uses
+<https://ahsanv101.github.io/AvatarOnto/#uses> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain [ rdf:type owl:Class ;
+                                                             owl:unionOf ( <https://ahsanv101.github.io/AvatarOnto/#Ability>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Element>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Group>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Location>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Object>
+                                                                           <https://ahsanv101.github.io/AvatarOnto/#Transport>
+                                                                         )
+                                                           ] ;
+                                               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline
+<https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Event> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Ability
+<https://ahsanv101.github.io/AvatarOnto/#Ability> rdf:type owl:Class ;
+                                                  rdfs:comment "The superclass Ability refers to all the powers, talents and capacities that an individual can use in the Avatar universe. " .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air
+<https://ahsanv101.github.io/AvatarOnto/#Air> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Element> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Air_Bending> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Bending> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://ahsanv101.github.io/AvatarOnto/#bends> ;
+                                                                        owl:allValuesFrom <https://ahsanv101.github.io/AvatarOnto/#Air>
+                                                                      ] .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air_Nation
+<https://ahsanv101.github.io/AvatarOnto/#Air_Nation> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Material_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Animate_Transport
+<https://ahsanv101.github.io/AvatarOnto/#Animate_Transport> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Transport> ;
+                                                            rdfs:comment "Subclass describing any kind of animal mount used as transportation." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Armament
+<https://ahsanv101.github.io/AvatarOnto/#Armament> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Object> ;
+                                                   rdfs:comment "Subclass containing any kind of armament." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Armor
+<https://ahsanv101.github.io/AvatarOnto/#Armor> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Armament> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Artillery
+<https://ahsanv101.github.io/AvatarOnto/#Artillery> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Armament> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Avatar_Circle
+<https://ahsanv101.github.io/AvatarOnto/#Avatar_Circle> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Group> ;
+                                                        rdfs:comment "Subclass referring to the closest people to the Avatars." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend
+<https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Legend> ;
+                                                        rdfs:comment "Legends belonging to the Avatar Universe." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Avatar_World
+<https://ahsanv101.github.io/AvatarOnto/#Avatar_World> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Location> ;
+                                                       rdfs:comment "Subclass describing all the places of the Avatar world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Belief
+<https://ahsanv101.github.io/AvatarOnto/#Belief> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Concept> ;
+                                                 rdfs:comment "Belief is a subclass for any political, religious or philosophical orientation" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Bending
+<https://ahsanv101.github.io/AvatarOnto/#Bending> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Ability> ;
+                                                  rdfs:comment "Bending was created to address all the bending techniques of the Avatar world (firebending, waterbending, airbending, earthbending) and their respective specializations (here contained as their subclasses)" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Bloodbending
+<https://ahsanv101.github.io/AvatarOnto/#Bloodbending> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Water_Bending> ;
+                                                       rdfs:comment "Specialized sub-skill and rare variant of waterbending allows an extremely advanced waterbender to take hold of and manipulate fluids within an organism's body." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Combustionbending
+<https://ahsanv101.github.io/AvatarOnto/#Combustionbending> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> ;
+                                                            rdfs:comment "The form of telekinetic firebending." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Concept
+<https://ahsanv101.github.io/AvatarOnto/#Concept> rdf:type owl:Class ;
+                                                  rdfs:comment "Concept addresses all political views, traditions, myths and cultural feats coming both from our world and from Avatar's universe. " .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Creature
+<https://ahsanv101.github.io/AvatarOnto/#Creature> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                   rdfs:comment "Subclass used to described any type of animal belonging to the Avatar world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition
+<https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Concept> ;
+                                                                rdfs:comment "Culture_and_Tradition addresses all references and instances of real-life culture." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth
+<https://ahsanv101.github.io/AvatarOnto/#Earth> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Element> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Bending> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://ahsanv101.github.io/AvatarOnto/#bends> ;
+                                                                          owl:allValuesFrom <https://ahsanv101.github.io/AvatarOnto/#Earth>
+                                                                        ] .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Material_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Element
+<https://ahsanv101.github.io/AvatarOnto/#Element> rdf:type owl:Class ;
+                                                  rdfs:comment "Element contains the foundation of the Avatar universe: the four elements." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Energy_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Energy_Bending> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Bending> ;
+                                                         rdfs:comment "The ability to bend another person's life energy." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Event
+<https://ahsanv101.github.io/AvatarOnto/#Event> rdf:type owl:Class ;
+                                                rdfs:comment "The superclass Event refers to moments in times and both fictional and non-fictional historical events." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire
+<https://ahsanv101.github.io/AvatarOnto/#Fire> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Element> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Bending> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <https://ahsanv101.github.io/AvatarOnto/#bends> ;
+                                                                         owl:allValuesFrom <https://ahsanv101.github.io/AvatarOnto/#Fire>
+                                                                       ] .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire_Nation
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Material_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Flying
+<https://ahsanv101.github.io/AvatarOnto/#Flying> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Air_Bending> ;
+                                                 rdfs:comment "Highest level of Airbending, unique ability." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Group
+<https://ahsanv101.github.io/AvatarOnto/#Group> rdf:type owl:Class ;
+                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://ahsanv101.github.io/AvatarOnto/#has_member> ;
+                                                                  owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <https://ahsanv101.github.io/AvatarOnto/#Living_Being>
+                                                                ] ;
+                                                rdfs:comment "Superclass containing any organization or social circle counting more than one individual in it." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hand_Combat
+<https://ahsanv101.github.io/AvatarOnto/#Hand_Combat> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Non-bending> ;
+                                                      rdfs:comment "Type of non-bending ability, related to martial arts and physical combat." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Healing
+<https://ahsanv101.github.io/AvatarOnto/#Healing> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Water_Bending> ;
+                                                  rdfs:comment "A special ability possessed by some waterbenders that enables them to heal those who have been wounded, including themselves." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Inanimate_Transport
+<https://ahsanv101.github.io/AvatarOnto/#Inanimate_Transport> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Transport> ;
+                                                              rdfs:comment "Subclass describing any kind of artificial structure used as transportation." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Knowledge_Based_Object
+<https://ahsanv101.github.io/AvatarOnto/#Knowledge_Based_Object> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Object> ;
+                                                                 rdfs:comment "Subclass referring to any kind of object capable of transmitting knowledge." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline
+<https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Event> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lavabending
+<https://ahsanv101.github.io/AvatarOnto/#Lavabending> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> ;
+                                                      rdfs:comment "A specialized earth-bending technique allowing to change phase of the earth, melting it into lava for more versatility in battle." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Legend
+<https://ahsanv101.github.io/AvatarOnto/#Legend> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Concept> ;
+                                                 rdfs:comment "Legend refers to any myth, mythological creature or legend coming coming from our world and, also, from the Avatar universe." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation
+<https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> ;
+                                                               rdfs:comment "Sub-skill of firebending that allows a firebender to produce and guide a bolt of lightning from their fingertips." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection
+<https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> ;
+                                                                rdfs:comment "Sub-skill of firebending that allows a firebender to absorb lightning into their body as energy and release it in a more desirable direction." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Living_Being
+<https://ahsanv101.github.io/AvatarOnto/#Living_Being> rdf:type owl:Class ;
+                                                       rdfs:comment "Superclass addressing all the existing individuals, creatures and supernatural entities living in the Avatar universe. " .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Location
+<https://ahsanv101.github.io/AvatarOnto/#Location> rdf:type owl:Class ;
+                                                   rdfs:comment "Superclass that refers to all kinds of places, both fictional and non-fictional." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Material_World
+<https://ahsanv101.github.io/AvatarOnto/#Material_World> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Avatar_World> ;
+                                                         rdfs:comment "Subclass defining all the locations belonging to th mortal world of Avatar." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Melee_Combat
+<https://ahsanv101.github.io/AvatarOnto/#Melee_Combat> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Non-bending> ;
+                                                       rdfs:comment "Type of non-bending ability, related to any fight involving a short range weapon (like a sword or a dagger)." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Metalbending
+<https://ahsanv101.github.io/AvatarOnto/#Metalbending> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> ;
+                                                       rdfs:comment "A specialized earth-bending technique to manipulate metal." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Military_Forces
+<https://ahsanv101.github.io/AvatarOnto/#Military_Forces> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Group> ;
+                                                          rdfs:comment "Subclass containing all organizations with a strong military apparatus or attitude." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Non-bending
+<https://ahsanv101.github.io/AvatarOnto/#Non-bending> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Ability> ;
+                                                      rdfs:comment "Non_Bending refers to different combat styles, going from hand-combat, too melee-combat to ranged-combat (here contained as ulterior subclasses)" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe
+<https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Object
+<https://ahsanv101.github.io/AvatarOnto/#Object> rdf:type owl:Class ;
+                                                 rdfs:comment "Superclass defining any kind of tool or resource with a purpose, a physical form and a shape." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Person
+<https://ahsanv101.github.io/AvatarOnto/#Person> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                 rdfs:comment "Subclass referring to human beings." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Political_Group
+<https://ahsanv101.github.io/AvatarOnto/#Political_Group> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Group> ;
+                                                          rdfs:comment "Subclass referring to any political party or government apparatus." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Ranged_Combat
+<https://ahsanv101.github.io/AvatarOnto/#Ranged_Combat> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Non-bending> ;
+                                                        rdfs:comment "Type of non-bending ability, related to any fighting technique involving a long-range weapon (such as a bow or a gun)." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Real_World
+<https://ahsanv101.github.io/AvatarOnto/#Real_World> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Location> ;
+                                                     rdfs:comment "Subclass containing all the reference to actual locations and places coming from our world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend
+<https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Legend> ;
+                                                            rdfs:comment "Legends belonging to our world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline
+<https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Event> ;
+                                                              rdfs:comment "Subclass referring to all real life events used as inspiration or reference in the Avatar universe." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Seismic_Sense
+<https://ahsanv101.github.io/AvatarOnto/#Seismic_Sense> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> ;
+                                                        rdfs:comment "A specialized earth-bender technique for sensing vibrations through the ground, \"seeing\" by sensing its surroundings and making a mental image of it." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe
+<https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spirit
+<https://ahsanv101.github.io/AvatarOnto/#Spirit> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Living_Being> ;
+                                                 rdfs:comment "Subclass defining supernatural entities of the Avatar world." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spirit_World
+<https://ahsanv101.github.io/AvatarOnto/#Spirit_World> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Avatar_World> ;
+                                                       rdfs:comment "The dimension where the spirits live." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spiritbending
+<https://ahsanv101.github.io/AvatarOnto/#Spiritbending> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Healing> ;
+                                                        rdfs:comment "Spiritbending is a variation of the healing technique which allows the user to instill a balance or an imbalance within spirits." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection
+<https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Air_Bending> ;
+                                                               rdfs:comment "A specialized airbending technique that consists of projecting one's spirit out of the body to travel to another location." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Transport
+<https://ahsanv101.github.io/AvatarOnto/#Transport> rdf:type owl:Class ;
+                                                    rdfs:comment "Superclass defining any kind of transportation." .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations
+<https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Material_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water
+<https://ahsanv101.github.io/AvatarOnto/#Water> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Element> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Water_Bending> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Bending> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://ahsanv101.github.io/AvatarOnto/#bends> ;
+                                                                          owl:allValuesFrom <https://ahsanv101.github.io/AvatarOnto/#Water>
+                                                                        ] .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water_Tribe
+<https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Material_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Weapon
+<https://ahsanv101.github.io/AvatarOnto/#Weapon> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://ahsanv101.github.io/AvatarOnto/#Armament> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/page/Anarchism
+<http://dbpedia.org/page/Anarchism> rdf:type owl:NamedIndividual ,
+                                             <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China
+<http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China> rdf:type owl:NamedIndividual ,
+                                                                                        <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Buddhism
+<http://dbpedia.org/page/Buddhism> rdf:type owl:NamedIndividual ,
+                                            <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Chinese_mythology
+<http://dbpedia.org/page/Chinese_mythology> rdf:type owl:NamedIndividual ,
+                                                     <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/First_Sino_Japanese_War
+<http://dbpedia.org/page/First_Sino_Japanese_War> rdf:type owl:NamedIndividual ,
+                                                           <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Hinduism
+<http://dbpedia.org/page/Hinduism> rdf:type owl:NamedIndividual ,
+                                            <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Industrial_Revolution
+<http://dbpedia.org/page/Industrial_Revolution> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Inuit_religion
+<http://dbpedia.org/page/Inuit_religion> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/Japanese_mythology
+<http://dbpedia.org/page/Japanese_mythology> rdf:type owl:NamedIndividual ,
+                                                      <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/Korean_mythology
+<http://dbpedia.org/page/Korean_mythology> rdf:type owl:NamedIndividual ,
+                                                    <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/Meiji_Restoration
+<http://dbpedia.org/page/Meiji_Restoration> rdf:type owl:NamedIndividual ,
+                                                     <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Ming_Dynasty
+<http://dbpedia.org/page/Ming_Dynasty> rdf:type owl:NamedIndividual ,
+                                                <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas
+<http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas> rdf:type owl:NamedIndividual ,
+                                                                                         <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/Nanjing_Massacre
+<http://dbpedia.org/page/Nanjing_Massacre> rdf:type owl:NamedIndividual ,
+                                                    <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Populism
+<http://dbpedia.org/page/Populism> rdf:type owl:NamedIndividual ,
+                                            <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Qing_Dynasty
+<http://dbpedia.org/page/Qing_Dynasty> rdf:type owl:NamedIndividual ,
+                                                <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Roaring_Twenties
+<http://dbpedia.org/page/Roaring_Twenties> rdf:type owl:NamedIndividual ,
+                                                    <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Shinto
+<http://dbpedia.org/page/Shinto> rdf:type owl:NamedIndividual ,
+                                          <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Taiping_Rebellion
+<http://dbpedia.org/page/Taiping_Rebellion> rdf:type owl:NamedIndividual ,
+                                                     <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  http://dbpedia.org/page/Taoism
+<http://dbpedia.org/page/Taoism> rdf:type owl:NamedIndividual ,
+                                          <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  http://dbpedia.org/page/Vietnamese_mythology
+<http://dbpedia.org/page/Vietnamese_mythology> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  http://dbpedia.org/page/Zoroastrianism
+<http://dbpedia.org/page/Zoroastrianism> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Aang
+<https://ahsanv101.github.io/AvatarOnto/#Aang> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline
+<https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline> ;
+                                                         <https://ahsanv101.github.io/AvatarOnto/#has_date> "0_BG_to_100_AG" ;
+                                                         <https://ahsanv101.github.io/AvatarOnto/#has_event> "Aang_and_Appa_frozen_in_iceberg" ,
+                                                                                                             "Aang_escapes_with_Appa" ,
+                                                                                                             "Aang_starts_Earth_Bending_Training" ,
+                                                                                                             "Aang_starts_Fire_Bending_Training" ,
+                                                                                                             "Aang_starts_Water_Bending_Training" ,
+                                                                                                             "Admiral_Zhao_kills_Tui" ,
+                                                                                                             "Arrival_of_Sozins_Comet" ,
+                                                                                                             "Avatar_Aang_defeats_Ozai" ,
+                                                                                                             "Azula_becomes_Fire_Lord" ,
+                                                                                                             "Azula_conquers_Ba_Sing_Se" ,
+                                                                                                             "Azula_kills_Aang" ,
+                                                                                                             "Azula_starts_hunting_the_Avatar" ,
+                                                                                                             "Azulon_becomes_Fire_Lord" ,
+                                                                                                             "Eclipse_Attack" ,
+                                                                                                             "Fire_Lord_Azulon_is_born" ,
+                                                                                                             "Fire_Nation_attacks_Water_Tribe" ,
+                                                                                                             "Fire_Nation_attacks_the_Earth_Kingdom" ,
+                                                                                                             "Fire_Nation_conquers_Omashu" ,
+                                                                                                             "Fire_Nation_invades_Northern_Water_Tribe" ,
+                                                                                                             "Fire_Nations_Genocide_against_Air_Nomads" ,
+                                                                                                             "GAang_defeats_Fire_Nation_Forces" ,
+                                                                                                             "Katara_and_Sokka_find_Aang" ,
+                                                                                                             "Katara_brings_Aang_back_to_life" ,
+                                                                                                             "Lion_Turtle_teaches_Aang_Energybending" ,
+                                                                                                             "Long_Feng_is_Regent_of_Earth_Kingdom" ,
+                                                                                                             "Mai_is_born" ,
+                                                                                                             "Omashu_is_freed" ,
+                                                                                                             "Ozai_and_Azula_are_imprisoned" ,
+                                                                                                             "Ozai_and_Iroh_are_born" ,
+                                                                                                             "Ozai_attacks_Earth_Kingdom" ,
+                                                                                                             "Ozai_becomes_Fire_Lord" ,
+                                                                                                             "Ozai_becomes_Phoenix_King" ,
+                                                                                                             "Prince_Zuko_is_born" ,
+                                                                                                             "Princess_Azula_is_born" ,
+                                                                                                             "Princess_Yue_is_born" ,
+                                                                                                             "Siege_of_Ba_Sing_Se" ,
+                                                                                                             "Sokka_is_born" ,
+                                                                                                             "Start_of_Zukos_Exile" ,
+                                                                                                             "The_White_Lotus_frees_Ba_Sing_Se" ,
+                                                                                                             "Toph_Sokka_and_Suki_defeat_Fire_Nations_Armada" ,
+                                                                                                             "Toph_is_born" ,
+                                                                                                             "Toph_joins_GAang" ,
+                                                                                                             "Yues_death" ,
+                                                                                                             "Zuko_and_Katara_defeat_Azula" ,
+                                                                                                             "Zuko_becomes_Fire_Lord" ,
+                                                                                                             "Zuko_joins_GAang" ,
+                                                                                                             "Zuko_starts_hunting_the_Avatar" ,
+                                                                                                             "Zuko_trains_Aang" ;
+                                                         <https://ahsanv101.github.io/AvatarOnto/#has_name> "The_Hundred_Year_War" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Agna_Qela
+<https://ahsanv101.github.io/AvatarOnto/#Agna_Qela> rdf:type owl:NamedIndividual ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air
+<https://ahsanv101.github.io/AvatarOnto/#Air> rdf:type owl:NamedIndividual ,
+                                                       <https://ahsanv101.github.io/AvatarOnto/#Air> ;
+                                              <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <http://dbpedia.org/page/Buddhism> ,
+                                                                                                                <http://dbpedia.org/page/Hinduism> ;
+                                              <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <https://www.wikidata.org/wiki/Q1149795> ,
+                                                                                                    <https://www.wikidata.org/wiki/Q5521630> ;
+                                              <https://ahsanv101.github.io/AvatarOnto/#uses> "life_flow" ,
+                                                                                             "wind" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Air_Bending> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Air_Bending> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#from> <https://ahsanv101.github.io/AvatarOnto/#Air_Nation> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#has_name> "Air_Bending" ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#uses> "inner_peace" ,
+                                                                                                     "meditation" ,
+                                                                                                     "negative_jing" ,
+                                                                                                     "spiritual_enlightment" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air_Nation
+<https://ahsanv101.github.io/AvatarOnto/#Air_Nation> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Air_Nation> ;
+                                                     <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <http://dbpedia.org/page/Buddhism> ,
+                                                                                                                       <https://ahsanv101.github.io/AvatarOnto/#China> ,
+                                                                                                                       <https://www.geonames.org/1279685> ,
+                                                                                                                       <https://www.geonames.org/1282988> ;
+                                                     <https://ahsanv101.github.io/AvatarOnto/#has_name> "Air_Nomads" ;
+                                                     <https://ahsanv101.github.io/AvatarOnto/#known_for> "Spirituality" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Air_Nation_Weapons
+<https://ahsanv101.github.io/AvatarOnto/#Air_Nation_Weapons> rdf:type owl:NamedIndividual ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Weapon> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Angkor_Wat
+<https://ahsanv101.github.io/AvatarOnto/#Angkor_Wat> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Appa
+<https://ahsanv101.github.io/AvatarOnto/#Appa> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Creature> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Arctic_Camel
+<https://ahsanv101.github.io/AvatarOnto/#Arctic_Camel> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Creature> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Asami_Sato
+<https://ahsanv101.github.io/AvatarOnto/#Asami_Sato> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Azula
+<https://ahsanv101.github.io/AvatarOnto/#Azula> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Ba_Sing_Se
+<https://ahsanv101.github.io/AvatarOnto/#Ba_Sing_Se> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style
+<https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style> rdf:type owl:NamedIndividual ,
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Beijing
+<https://ahsanv101.github.io/AvatarOnto/#Beijing> rdf:type owl:NamedIndividual ,
+                                                           <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Boiling_Rock_Prison
+<https://ahsanv101.github.io/AvatarOnto/#Boiling_Rock_Prison> rdf:type owl:NamedIndividual ,
+                                                                       <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Bolin
+<https://ahsanv101.github.io/AvatarOnto/#Bolin> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Cambodia
+<https://ahsanv101.github.io/AvatarOnto/#Cambodia> rdf:type owl:NamedIndividual ,
+                                                            <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Capital_City
+<https://ahsanv101.github.io/AvatarOnto/#Capital_City> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#China
+<https://ahsanv101.github.io/AvatarOnto/#China> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Dai_Li
+<https://ahsanv101.github.io/AvatarOnto/#Dai_Li> rdf:type owl:NamedIndividual ,
+                                                          <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth
+<https://ahsanv101.github.io/AvatarOnto/#Earth> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Earth> ;
+                                                <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> ,
+                                                                                                      <https://www.wikidata.org/wiki/Q1149795> ;
+                                                <https://ahsanv101.github.io/AvatarOnto/#uses> "ground" ,
+                                                                                               "rock" ,
+                                                                                               "sand" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#from> <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> "Nanquan" ,
+                                                                                                                     "Wing_Chun" ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#has_name> "Earth_Bending" ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#uses> "contact_with_nature" ,
+                                                                                                       "five_senses" ,
+                                                                                                       "neutral_jing" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Empire
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Empire> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Military_Forces> ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Political_Group> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> rdf:type owl:NamedIndividual .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom_Weapons
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom_Weapons> rdf:type owl:NamedIndividual ,
+                                                                         <https://ahsanv101.github.io/AvatarOnto/#Weapon> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Earth_Nation
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Nation> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Eastern_Air_Temple
+<https://ahsanv101.github.io/AvatarOnto/#Eastern_Air_Temple> rdf:type owl:NamedIndividual ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Equalists
+<https://ahsanv101.github.io/AvatarOnto/#Equalists> rdf:type owl:NamedIndividual ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Military_Forces> ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Political_Group> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire
+<https://ahsanv101.github.io/AvatarOnto/#Fire> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Fire> ;
+                                               <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <http://dbpedia.org/page/Buddhism> ,
+                                                                                                                 <http://dbpedia.org/page/Hinduism> ;
+                                               <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> ,
+                                                                                                     <https://www.wikidata.org/wiki/Q1149795> ;
+                                               <https://ahsanv101.github.io/AvatarOnto/#uses> "breath_control" ,
+                                                                                              "inner_drive" ,
+                                                                                              "sun_energy" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#from> <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> "Changquan" ,
+                                                                                                                    "Southern_Dragon_Claw" ,
+                                                                                                                    "Xingyiquan " ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#has_name> "Fire_Bending" ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#uses> "breath_control" ,
+                                                                                                      "inner_drive" ,
+                                                                                                      "martial_arts" ,
+                                                                                                      "sun_energy" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire_Nation
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <http://dbpedia.org/page/Meiji_Restoration> ,
+                                                                                                                        <https://www.wikidata.org/wiki/Q1347711> ,
+                                                                                                                        <https://www.wikidata.org/wiki/Q645917> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <https://www.wikidata.org/wiki/Q188712> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#has_name> "Fire_Nation" ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#known_for> "Propaganda" ,
+                                                                                                          "War_Crimes" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Fire_Nation_Weapons
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Nation_Weapons> rdf:type owl:NamedIndividual ,
+                                                                       <https://ahsanv101.github.io/AvatarOnto/#Weapon> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Flying_Bison
+<https://ahsanv101.github.io/AvatarOnto/#Flying_Bison> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Creature> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Forbidden_City
+<https://ahsanv101.github.io/AvatarOnto/#Forbidden_City> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#General_Old_Iron
+<https://ahsanv101.github.io/AvatarOnto/#General_Old_Iron> rdf:type owl:NamedIndividual ,
+                                                                    <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Gobi_Desert
+<https://ahsanv101.github.io/AvatarOnto/#Gobi_Desert> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hai_Riyo_Peak
+<https://ahsanv101.github.io/AvatarOnto/#Hai_Riyo_Peak> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hari_Bulkan
+<https://ahsanv101.github.io/AvatarOnto/#Hari_Bulkan> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hokkaido
+<https://ahsanv101.github.io/AvatarOnto/#Hokkaido> rdf:type owl:NamedIndividual ,
+                                                            <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hong_Kong
+<https://ahsanv101.github.io/AvatarOnto/#Hong_Kong> rdf:type owl:NamedIndividual ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style
+<https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Katara
+<https://ahsanv101.github.io/AvatarOnto/#Katara> rdf:type owl:NamedIndividual ,
+                                                          <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Kemikurage
+<https://ahsanv101.github.io/AvatarOnto/#Kemikurage> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Knowledge_Seekers
+<https://ahsanv101.github.io/AvatarOnto/#Knowledge_Seekers> rdf:type owl:NamedIndividual ,
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Koh_the_Face_Stealer
+<https://ahsanv101.github.io/AvatarOnto/#Koh_the_Face_Stealer> rdf:type owl:NamedIndividual ,
+                                                                        <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Korra
+<https://ahsanv101.github.io/AvatarOnto/#Korra> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline
+<https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> rdf:type owl:NamedIndividual ,
+                                                                   <https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> ;
+                                                          <https://ahsanv101.github.io/AvatarOnto/#has_name> "Korras_Timeline" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Kowloon_Walled_City
+<https://ahsanv101.github.io/AvatarOnto/#Kowloon_Walled_City> rdf:type owl:NamedIndividual ,
+                                                                       <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Kyoshi_Warriors
+<https://ahsanv101.github.io/AvatarOnto/#Kyoshi_Warriors> rdf:type owl:NamedIndividual ,
+                                                                   <https://ahsanv101.github.io/AvatarOnto/#Military_Forces> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Kyoshis_Island
+<https://ahsanv101.github.io/AvatarOnto/#Kyoshis_Island> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lady_Tienhai
+<https://ahsanv101.github.io/AvatarOnto/#Lady_Tienhai> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lake_Laogai
+<https://ahsanv101.github.io/AvatarOnto/#Lake_Laogai> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Lion_Turtle
+<https://ahsanv101.github.io/AvatarOnto/#Lion_Turtle> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Mako
+<https://ahsanv101.github.io/AvatarOnto/#Mako> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Mongolia
+<https://ahsanv101.github.io/AvatarOnto/#Mongolia> rdf:type owl:NamedIndividual ,
+                                                            <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#North_Water_Nation
+<https://ahsanv101.github.io/AvatarOnto/#North_Water_Nation> rdf:type owl:NamedIndividual ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Nunavik
+<https://ahsanv101.github.io/AvatarOnto/#Nunavik> rdf:type owl:NamedIndividual ,
+                                                           <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Omashu
+<https://ahsanv101.github.io/AvatarOnto/#Omashu> rdf:type owl:NamedIndividual ,
+                                                          <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Painted_Lady
+<https://ahsanv101.github.io/AvatarOnto/#Painted_Lady> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Paro_Taktsang
+<https://ahsanv101.github.io/AvatarOnto/#Paro_Taktsang> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Polar_Bear_Dog
+<https://ahsanv101.github.io/AvatarOnto/#Polar_Bear_Dog> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Creature> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Post_Hundred_Year_War
+<https://ahsanv101.github.io/AvatarOnto/#Post_Hundred_Year_War> rdf:type owl:NamedIndividual ,
+                                                                         <https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Qingdao
+<https://ahsanv101.github.io/AvatarOnto/#Qingdao> rdf:type owl:NamedIndividual ,
+                                                           <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Red_Lotus
+<https://ahsanv101.github.io/AvatarOnto/#Red_Lotus> rdf:type owl:NamedIndividual ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Military_Forces> ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Political_Group> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Second_Age_of_the_Avatar
+<https://ahsanv101.github.io/AvatarOnto/#Second_Age_of_the_Avatar> rdf:type owl:NamedIndividual ,
+                                                                            <https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Si_Wong_Desert
+<https://ahsanv101.github.io/AvatarOnto/#Si_Wong_Desert> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Sokka
+<https://ahsanv101.github.io/AvatarOnto/#Sokka> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#South_Water_Nation
+<https://ahsanv101.github.io/AvatarOnto/#South_Water_Nation> rdf:type owl:NamedIndividual ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spirit_Oasis
+<https://ahsanv101.github.io/AvatarOnto/#Spirit_Oasis> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe> ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Spirit_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Spirit_Wilds
+<https://ahsanv101.github.io/AvatarOnto/#Spirit_Wilds> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Material_World> ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Spirit_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Tenzin
+<https://ahsanv101.github.io/AvatarOnto/#Tenzin> rdf:type owl:NamedIndividual ,
+                                                          <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#The_Mother_of_Faces
+<https://ahsanv101.github.io/AvatarOnto/#The_Mother_of_Faces> rdf:type owl:NamedIndividual ,
+                                                                       <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#The_Tale_of_the_Two_Lovers
+<https://ahsanv101.github.io/AvatarOnto/#The_Tale_of_the_Two_Lovers> rdf:type owl:NamedIndividual ,
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Toph
+<https://ahsanv101.github.io/AvatarOnto/#Toph> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Tui_and_La
+<https://ahsanv101.github.io/AvatarOnto/#Tui_and_La> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Uncle_Iroh
+<https://ahsanv101.github.io/AvatarOnto/#Uncle_Iroh> rdf:type owl:NamedIndividual ,
+                                                              <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations
+<https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations> rdf:type owl:NamedIndividual ,
+                                                                              <https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations> ;
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <http://dbpedia.org/page/Industrial_Revolution> ,
+                                                                                                                                       <https://ahsanv101.github.io/AvatarOnto/#Hong_Kong> ;
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <http://dbpedia.org/page/Roaring_Twenties> ;
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#has_name> "Republic City" ;
+                                                                     <https://ahsanv101.github.io/AvatarOnto/#known_for> "Industrialization" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations_Weapons
+<https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations_Weapons> rdf:type owl:NamedIndividual ,
+                                                                                      <https://ahsanv101.github.io/AvatarOnto/#Weapon> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Vaatu_and_Raava
+<https://ahsanv101.github.io/AvatarOnto/#Vaatu_and_Raava> rdf:type owl:NamedIndividual ,
+                                                                   <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Venice
+<https://ahsanv101.github.io/AvatarOnto/#Venice> rdf:type owl:NamedIndividual ,
+                                                          <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tong
+<https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tong> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Spirit> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tongs_Library
+<https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tongs_Library> rdf:type owl:NamedIndividual ,
+                                                                         <https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water
+<https://ahsanv101.github.io/AvatarOnto/#Water> rdf:type owl:NamedIndividual ,
+                                                         <https://ahsanv101.github.io/AvatarOnto/#Water> ;
+                                                <https://ahsanv101.github.io/AvatarOnto/#inspired_by> <https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> ,
+                                                                                                      <https://www.wikidata.org/wiki/Q1149795> ;
+                                                <https://ahsanv101.github.io/AvatarOnto/#uses> "moon_energy" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water_Bending
+<https://ahsanv101.github.io/AvatarOnto/#Water_Bending> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Water_Bending> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from> <https://www.wikidata.org/wiki/Q645917> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#from> <https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#has_name> "Water_Bending" ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#uses> "chi" ,
+                                                                                                       "emotional_control" ,
+                                                                                                       "ice" ,
+                                                                                                       "martial_arts" ,
+                                                                                                       "water" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water_Tribe
+<https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Water_Tribe> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#has_name> "Water_Tribe" .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Water_Tribe_Weapons
+<https://ahsanv101.github.io/AvatarOnto/#Water_Tribe_Weapons> rdf:type owl:NamedIndividual ,
+                                                                       <https://ahsanv101.github.io/AvatarOnto/#Weapon> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Western_Air_Temple
+<https://ahsanv101.github.io/AvatarOnto/#Western_Air_Temple> rdf:type owl:NamedIndividual ,
+                                                                      <https://ahsanv101.github.io/AvatarOnto/#Fire_Nation> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#White_Lotus
+<https://ahsanv101.github.io/AvatarOnto/#White_Lotus> rdf:type owl:NamedIndividual ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Military_Forces> ,
+                                                               <https://ahsanv101.github.io/AvatarOnto/#Political_Group> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Winged_Lemur
+<https://ahsanv101.github.io/AvatarOnto/#Winged_Lemur> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Creature> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Wolf_Cove
+<https://ahsanv101.github.io/AvatarOnto/#Wolf_Cove> rdf:type owl:NamedIndividual ,
+                                                             <https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Wulong_Forest
+<https://ahsanv101.github.io/AvatarOnto/#Wulong_Forest> rdf:type owl:NamedIndividual ,
+                                                                 <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Wulong_Karst
+<https://ahsanv101.github.io/AvatarOnto/#Wulong_Karst> rdf:type owl:NamedIndividual ,
+                                                                <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Xai_Baus_Grove
+<https://ahsanv101.github.io/AvatarOnto/#Xai_Baus_Grove> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Yangtze_Province
+<https://ahsanv101.github.io/AvatarOnto/#Yangtze_Province> rdf:type owl:NamedIndividual ,
+                                                                    <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Yu_Dao_Village
+<https://ahsanv101.github.io/AvatarOnto/#Yu_Dao_Village> rdf:type owl:NamedIndividual ,
+                                                                  <https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Zhangjiajie_National_Forest_Park
+<https://ahsanv101.github.io/AvatarOnto/#Zhangjiajie_National_Forest_Park> rdf:type owl:NamedIndividual ,
+                                                                                    <https://ahsanv101.github.io/AvatarOnto/#Real_World> .
+
+
+###  https://ahsanv101.github.io/AvatarOnto/#Zuko
+<https://ahsanv101.github.io/AvatarOnto/#Zuko> rdf:type owl:NamedIndividual ,
+                                                        <https://ahsanv101.github.io/AvatarOnto/#Person> .
+
+
+###  https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D
+<https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D> rdf:type owl:NamedIndividual .
+
+
+###  https://www.geonames.org/1279685
+<https://www.geonames.org/1279685> rdf:type owl:NamedIndividual .
+
+
+###  https://www.geonames.org/1282988
+<https://www.geonames.org/1282988> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q11282348
+<https://www.wikidata.org/wiki/Q11282348> rdf:type owl:NamedIndividual ,
+                                                   <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q1149795
+<https://www.wikidata.org/wiki/Q1149795> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Belief> .
+
+
+###  https://www.wikidata.org/wiki/Q1280973
+<https://www.wikidata.org/wiki/Q1280973> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  https://www.wikidata.org/wiki/Q1347711
+<https://www.wikidata.org/wiki/Q1347711> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q1353709
+<https://www.wikidata.org/wiki/Q1353709> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q167987
+<https://www.wikidata.org/wiki/Q167987> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q179575
+<https://www.wikidata.org/wiki/Q179575> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q188712
+<https://www.wikidata.org/wiki/Q188712> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q199701
+<https://www.wikidata.org/wiki/Q199701> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q28179
+<https://www.wikidata.org/wiki/Q28179> rdf:type owl:NamedIndividual ,
+                                                <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  https://www.wikidata.org/wiki/Q418226
+<https://www.wikidata.org/wiki/Q418226> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q5521630
+<https://www.wikidata.org/wiki/Q5521630> rdf:type owl:NamedIndividual ,
+                                                  <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q645917
+<https://www.wikidata.org/wiki/Q645917> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q692111
+<https://www.wikidata.org/wiki/Q692111> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q715162
+<https://www.wikidata.org/wiki/Q715162> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q718580
+<https://www.wikidata.org/wiki/Q718580> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q7318
+<https://www.wikidata.org/wiki/Q7318> rdf:type owl:NamedIndividual ,
+                                               <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+###  https://www.wikidata.org/wiki/Q7559
+<https://www.wikidata.org/wiki/Q7559> rdf:type owl:NamedIndividual ,
+                                               <https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend> .
+
+
+###  https://www.wikidata.org/wiki/Q82723
+<https://www.wikidata.org/wiki/Q82723> rdf:type owl:NamedIndividual ,
+                                                <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q831454
+<https://www.wikidata.org/wiki/Q831454> rdf:type owl:NamedIndividual ,
+                                                 <https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition> .
+
+
+###  https://www.wikidata.org/wiki/Q99717
+<https://www.wikidata.org/wiki/Q99717> rdf:type owl:NamedIndividual ,
+                                                <https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline> .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline> rdfs:comment "Subclass referring to all the events contained into Aang's timeline as annotations." .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Air> <https://ahsanv101.github.io/AvatarOnto/#has_feature> <https://ahsanv101.github.io/AvatarOnto/#Air_Bending> ,
+                                                                                                    <https://ahsanv101.github.io/AvatarOnto/#Flying> ,
+                                                                                                    <https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Air_Bending> rdfs:comment "The erokinetic ability to control and manipulate air." ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> <https://www.wikidata.org/wiki/Q5521630> ;
+                                                      <https://ahsanv101.github.io/AvatarOnto/#uses> <https://ahsanv101.github.io/AvatarOnto/#Air> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Earth> <https://ahsanv101.github.io/AvatarOnto/#has_feature> <https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Earth_Bending> rdfs:comment "The geokinetic ability to manipulate earth and rock in all their various form." ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> <https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Fire> <https://ahsanv101.github.io/AvatarOnto/#has_feature> <https://ahsanv101.github.io/AvatarOnto/#Combustionbending> ,
+                                                                                                     <https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> ,
+                                                                                                     <https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation> ,
+                                                                                                     <https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Fire_Bending> rdfs:comment "The pyrokinetic ability to control and produce fire." ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> <https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style> ;
+                                                       <https://ahsanv101.github.io/AvatarOnto/#uses> <https://ahsanv101.github.io/AvatarOnto/#Fire> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline> rdfs:comment "Subclass referring to all the events contained into Korra's timeline as annotations." .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Water> <https://ahsanv101.github.io/AvatarOnto/#has_feature> <https://ahsanv101.github.io/AvatarOnto/#Water_Bending> ;
+                                                <https://ahsanv101.github.io/AvatarOnto/#uses> <https://ahsanv101.github.io/AvatarOnto/#Tui_and_La> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#Water_Bending> rdfs:comment "The hydrokinetic ability to control water in all of its various forms." ;
+                                                        <https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> <https://www.wikidata.org/wiki/Q167987> .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#has_feature> rdfs:comment "Describes any relevant and particular trait that a fictional or real element could have." .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#has_fighting_style> rdfs:comment "Defines the fighting style of a bending technique or a fighting technique known by a character." .
+
+
+<https://ahsanv101.github.io/AvatarOnto/#uses> rdfs:comment "Refers to any element used to be obtain something, perform an ability or bring an advantage to another individual or entity." .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

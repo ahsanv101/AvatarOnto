@@ -1,0 +1,2346 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_member"
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#bends"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Legend"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+    }, {
+      "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#bends"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#bends"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#bends"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Anarchism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Annexation_of_Tibet_by_the_Peoples_Republic_of_China",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Buddhism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Chinese_mythology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/First_Sino_Japanese_War",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Hinduism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Industrial_Revolution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Inuit_religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Japanese_mythology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Korean_mythology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Meiji_Restoration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Ming_Dynasty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Mythologies_of_the_indigenous_peoples_of_the_Americas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Nanjing_Massacre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Populism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Qing_Dynasty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Roaring_Twenties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Shinto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Taiping_Rebellion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Taoism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Vietnamese_mythology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/page/Zoroastrianism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Aang",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Aangs_Timeline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to all the events contained into Aang's timeline as annotations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_date" : [ {
+    "@value" : "0_BG_to_100_AG"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_event" : [ {
+    "@value" : "Aang_and_Appa_frozen_in_iceberg"
+  }, {
+    "@value" : "Aang_escapes_with_Appa"
+  }, {
+    "@value" : "Aang_starts_Earth_Bending_Training"
+  }, {
+    "@value" : "Aang_starts_Fire_Bending_Training"
+  }, {
+    "@value" : "Aang_starts_Water_Bending_Training"
+  }, {
+    "@value" : "Admiral_Zhao_kills_Tui"
+  }, {
+    "@value" : "Arrival_of_Sozins_Comet"
+  }, {
+    "@value" : "Avatar_Aang_defeats_Ozai"
+  }, {
+    "@value" : "Azula_becomes_Fire_Lord"
+  }, {
+    "@value" : "Azula_conquers_Ba_Sing_Se"
+  }, {
+    "@value" : "Azula_kills_Aang"
+  }, {
+    "@value" : "Azula_starts_hunting_the_Avatar"
+  }, {
+    "@value" : "Azulon_becomes_Fire_Lord"
+  }, {
+    "@value" : "Eclipse_Attack"
+  }, {
+    "@value" : "Fire_Lord_Azulon_is_born"
+  }, {
+    "@value" : "Fire_Nation_attacks_Water_Tribe"
+  }, {
+    "@value" : "Fire_Nation_attacks_the_Earth_Kingdom"
+  }, {
+    "@value" : "Fire_Nation_conquers_Omashu"
+  }, {
+    "@value" : "Fire_Nation_invades_Northern_Water_Tribe"
+  }, {
+    "@value" : "Fire_Nations_Genocide_against_Air_Nomads"
+  }, {
+    "@value" : "GAang_defeats_Fire_Nation_Forces"
+  }, {
+    "@value" : "Katara_and_Sokka_find_Aang"
+  }, {
+    "@value" : "Katara_brings_Aang_back_to_life"
+  }, {
+    "@value" : "Lion_Turtle_teaches_Aang_Energybending"
+  }, {
+    "@value" : "Long_Feng_is_Regent_of_Earth_Kingdom"
+  }, {
+    "@value" : "Mai_is_born"
+  }, {
+    "@value" : "Omashu_is_freed"
+  }, {
+    "@value" : "Ozai_and_Azula_are_imprisoned"
+  }, {
+    "@value" : "Ozai_and_Iroh_are_born"
+  }, {
+    "@value" : "Ozai_attacks_Earth_Kingdom"
+  }, {
+    "@value" : "Ozai_becomes_Fire_Lord"
+  }, {
+    "@value" : "Ozai_becomes_Phoenix_King"
+  }, {
+    "@value" : "Prince_Zuko_is_born"
+  }, {
+    "@value" : "Princess_Azula_is_born"
+  }, {
+    "@value" : "Princess_Yue_is_born"
+  }, {
+    "@value" : "Siege_of_Ba_Sing_Se"
+  }, {
+    "@value" : "Sokka_is_born"
+  }, {
+    "@value" : "Start_of_Zukos_Exile"
+  }, {
+    "@value" : "The_White_Lotus_frees_Ba_Sing_Se"
+  }, {
+    "@value" : "Toph_Sokka_and_Suki_defeat_Fire_Nations_Armada"
+  }, {
+    "@value" : "Toph_is_born"
+  }, {
+    "@value" : "Toph_joins_GAang"
+  }, {
+    "@value" : "Yues_death"
+  }, {
+    "@value" : "Zuko_and_Katara_defeat_Azula"
+  }, {
+    "@value" : "Zuko_becomes_Fire_Lord"
+  }, {
+    "@value" : "Zuko_joins_GAang"
+  }, {
+    "@value" : "Zuko_starts_hunting_the_Avatar"
+  }, {
+    "@value" : "Zuko_trains_Aang"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "The_Hundred_Year_War"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The superclass Ability refers to all the powers, talents and capacities that an individual can use in the Avatar universe. "
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Agna_Qela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "http://dbpedia.org/page/Buddhism"
+  }, {
+    "@id" : "http://dbpedia.org/page/Hinduism"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_feature" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Flying"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q1149795"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q5521630"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "life_flow"
+  }, {
+    "@value" : "wind"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The erokinetic ability to control and manipulate air."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+  }, {
+    "@id" : "_:genid97"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q645917"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#from" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q5521630"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Air_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "inner_peace"
+  }, {
+    "@value" : "meditation"
+  }, {
+    "@value" : "negative_jing"
+  }, {
+    "@value" : "spiritual_enlightment"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "http://dbpedia.org/page/Buddhism"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#China"
+  }, {
+    "@id" : "https://www.geonames.org/1279685"
+  }, {
+    "@id" : "https://www.geonames.org/1282988"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Air_Nomads"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#known_for" : [ {
+    "@value" : "Spirituality"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Nation_Weapons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Angkor_Wat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Animate_Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass describing any kind of animal mount used as transportation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Appa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Arctic_Camel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Armament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass containing any kind of armament."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Armor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Armament"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Artillery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Armament"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Asami_Sato",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Circle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to the closest people to the Avatars."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Legends belonging to the Avatar Universe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_World",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass describing all the places of the Avatar world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Azula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ba_Sing_Se",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Beijing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Belief is a subclass for any political, religious or philosophical orientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bending was created to address all the bending techniques of the Avatar world (firebending, waterbending, airbending, earthbending) and their respective specializations (here contained as their subclasses)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bloodbending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Specialized sub-skill and rare variant of waterbending allows an extremely advanced waterbender to take hold of and manipulate fluids within an organism's body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Boiling_Rock_Prison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bolin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Cambodia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Capital_City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#China",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Combustionbending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The form of telekinetic firebending."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Concept addresses all political views, traditions, myths and cultural feats coming both from our world and from Avatar's universe. "
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass used to described any type of animal belonging to the Avatar world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Culture_and_Tradition addresses all references and instances of real-life culture."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Dai_Li",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_feature" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q1149795"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "ground"
+  }, {
+    "@value" : "rock"
+  }, {
+    "@value" : "sand"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The geokinetic ability to manipulate earth and rock in all their various form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+  }, {
+    "@id" : "_:genid98"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q645917"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#from" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style" : [ {
+    "@value" : "Nanquan"
+  }, {
+    "@value" : "Wing_Chun"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Earth_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "contact_with_nature"
+  }, {
+    "@value" : "five_senses"
+  }, {
+    "@value" : "neutral_jing"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Empire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom_Weapons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Eastern_Air_Temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Element contains the foundation of the Avatar universe: the four elements."
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Energy_Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The ability to bend another person's life energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Equalists",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The superclass Event refers to moments in times and both fictional and non-fictional historical events."
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "http://dbpedia.org/page/Buddhism"
+  }, {
+    "@id" : "http://dbpedia.org/page/Hinduism"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_feature" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Combustionbending"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q1149795"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "breath_control"
+  }, {
+    "@value" : "inner_drive"
+  }, {
+    "@value" : "sun_energy"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The pyrokinetic ability to control and produce fire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+  }, {
+    "@id" : "_:genid99"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q645917"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#from" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style" : [ {
+    "@value" : "Changquan"
+  }, {
+    "@value" : "Southern_Dragon_Claw"
+  }, {
+    "@value" : "Xingyiquan "
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bai_Shaolin_Style"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Fire_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "breath_control"
+  }, {
+    "@value" : "inner_drive"
+  }, {
+    "@value" : "martial_arts"
+  }, {
+    "@value" : "sun_energy"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "http://dbpedia.org/page/Meiji_Restoration"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q1347711"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q645917"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Fire_Nation"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q188712"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#known_for" : [ {
+    "@value" : "Propaganda"
+  }, {
+    "@value" : "War_Crimes"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation_Weapons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Flying",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Highest level of Airbending, unique ability."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Flying_Bison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Forbidden_City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#General_Old_Iron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Gobi_Desert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Superclass containing any organization or social circle counting more than one individual in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid100"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hai_Riyo_Peak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hand_Combat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Type of non-bending ability, related to martial arts and physical combat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hari_Bulkan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Healing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A special ability possessed by some waterbenders that enables them to heal those who have been wounded, including themselves."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hokkaido",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hong_Kong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hun_Gar_Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Inanimate_Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass describing any kind of artificial structure used as transportation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Katara",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Kemikurage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Knowledge_Based_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to any kind of object capable of transmitting knowledge."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Knowledge_Seekers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Koh_the_Face_Stealer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Korra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to all the events contained into Korra's timeline as annotations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Korras_Timeline"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Kowloon_Walled_City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Kyoshi_Warriors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Kyoshis_Island",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lady_Tienhai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lake_Laogai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lavabending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specialized earth-bending technique allowing to change phase of the earth, melting it into lava for more versatility in battle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Legend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Legend refers to any myth, mythological creature or legend coming coming from our world and, also, from the Avatar universe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Concept"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Generation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sub-skill of firebending that allows a firebender to produce and guide a bolt of lightning from their fingertips."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lightning_Redirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sub-skill of firebending that allows a firebender to absorb lightning into their body as energy and release it in a more desirable direction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Lion_Turtle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Superclass addressing all the existing individuals, creatures and supernatural entities living in the Avatar universe. "
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Superclass that refers to all kinds of places, both fictional and non-fictional."
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Mako",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass defining all the locations belonging to th mortal world of Avatar."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Melee_Combat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Type of non-bending ability, related to any fight involving a short range weapon (like a sword or a dagger)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Metalbending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specialized earth-bending technique to manipulate metal."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass containing all organizations with a strong military apparatus or attitude."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Mongolia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Non_Bending refers to different combat styles, going from hand-combat, too melee-combat to ranged-combat (here contained as ulterior subclasses)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#North_Water_Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Nunavik",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Superclass defining any kind of tool or resource with a purpose, a physical form and a shape."
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Omashu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Painted_Lady",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Paro_Taktsang",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to human beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Polar_Bear_Dog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to any political party or government apparatus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Post_Hundred_Year_War",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Qingdao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ranged_Combat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Type of non-bending ability, related to any fighting technique involving a long-range weapon (such as a bow or a gun)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Non-bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass containing all the reference to actual locations and places coming from our world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Legends belonging to our world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass referring to all real life events used as inspiration or reference in the Avatar universe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Red_Lotus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Second_Age_of_the_Avatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Korras_Timeline"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Seismic_Sense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specialized earth-bender technique for sensing vibrations through the ground, \"seeing\" by sensing its surroundings and making a mental image of it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Si_Wong_Desert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Sokka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#South_Water_Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclass defining supernatural entities of the Avatar world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Oasis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Northern_Water_Tribe"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_Wilds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit_World",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The dimension where the spirits live."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spiritbending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Spiritbending is a variation of the healing technique which allows the user to instill a balance or an imbalance within spirits."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Healing"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spiritual_Projection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specialized airbending technique that consists of projecting one's spirit out of the body to travel to another location."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Air_Bending"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Tenzin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#The_Mother_of_Faces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#The_Tale_of_the_Two_Lovers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Toph",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Superclass defining any kind of transportation."
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Tui_and_La",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Uncle_Iroh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "http://dbpedia.org/page/Industrial_Revolution"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Hong_Kong"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Republic City"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "http://dbpedia.org/page/Roaring_Twenties"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#known_for" : [ {
+    "@value" : "Industrialization"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#United_Republic_of_Nations_Weapons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Vaatu_and_Raava",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Venice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Wan_Shi_Tongs_Library",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_feature" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#inspired_by" : [ {
+    "@id" : "https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q1149795"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "moon_energy"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Tui_and_La"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Bending"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The hydrokinetic ability to control water in all of its various forms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Bending"
+  }, {
+    "@id" : "_:genid101"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q645917"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#from" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q167987"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Water_Bending"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#uses" : [ {
+    "@value" : "chi"
+  }, {
+    "@value" : "emotional_control"
+  }, {
+    "@value" : "ice"
+  }, {
+    "@value" : "martial_arts"
+  }, {
+    "@value" : "water"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Material_World"
+  } ],
+  "https://ahsanv101.github.io/AvatarOnto/#has_name" : [ {
+    "@value" : "Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Water_Tribe_Weapons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Weapon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Armament"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Western_Air_Temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Fire_Nation"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#White_Lotus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Military_Forces"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Political_Group"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Winged_Lemur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Wolf_Cove",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Southern_Water_Tribe"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Wulong_Forest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Wulong_Karst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Xai_Baus_Grove",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Avatar_Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Yangtze_Province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Yu_Dao_Village",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Earth_Kingdom"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Zhangjiajie_National_Forest_Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#Zuko",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#bends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Element"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#culturally_derives_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Highlights the cultural connection between a fictional element (ex. \"Kyoshi Warriors\") and a cultural instance belonging to our reality (ex. \"Geisha\")"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#existed_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes if a specific group or individual has participated to an historical event."
+  }, {
+    "@value" : "Describes if a specific individual or group of individuals has lived trough a specific timeline or event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the provenance of a specific element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_ability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates any ability possessed by a living being."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Ability"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Refers to the date of a specific event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_disciple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the teacher-student relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_master"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines any event belonging to a timeline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes any relevant and particular trait that a fictional or real element could have."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid71"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_fighting_style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the fighting style of a bending technique or a fighting technique known by a character."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_legend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Refers to any possible connection between a fictional element and a legend about it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Legend"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_master",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the teacher-student relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the relationship between a group and its members."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_part_of"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#has_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Introduces the name of a fictional or real element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid79"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#inspired_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes how a fictional element  was inspired by a real historical, scientific or political element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#inspires"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#inspires",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines how an historical, scientific or political element from our world inspired a fictional element of the Avatar world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_child_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the familial relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_parent_of"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_companion_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the bond between a creature or a spirit and a person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Creature"
+  }, {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Spirit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Person"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_enemy_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_friend_of"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_friend_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_parent_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the familial relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the relationship between a fictional element and the group it belongs to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid64"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_related_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the familial relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#is_sibling_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the familial relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#known_for",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Explicits a trait that a location is known for by the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#loves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Describes the relationship between two living beings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Living_Being"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#participated_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid68"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Event"
+  } ]
+}, {
+  "@id" : "https://ahsanv101.github.io/AvatarOnto/#uses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Refers to any element used to be obtain something, perform an ability or bring an advantage to another individual or entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid89"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://dbpedia.org/page/Dokk%C5%8Dd%C5%8D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.geonames.org/1279685",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.geonames.org/1282988",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q11282348",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1149795",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Belief"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1280973",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1347711",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1353709",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q167987",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q179575",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q188712",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q199701",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q28179",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q418226",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q5521630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q645917",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q692111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q715162",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q718580",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q7318",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q7559",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Legend"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q82723",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q831454",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Culture_and_Tradition"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q99717",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://ahsanv101.github.io/AvatarOnto/#Real_World_Timeline"
+  } ]
+} ]
